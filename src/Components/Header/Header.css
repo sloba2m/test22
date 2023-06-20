@@ -1,0 +1,86 @@
+header {
+    height: 85px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+header .flex-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0; */
+}
+
+header .navlinks {
+    display: flex;
+    align-items: center;
+}
+
+header .navlinks ul {
+    margin: 0;
+}
+
+header .navlinks ul li {
+    display: inline;
+    margin-right: 30px;
+
+}
+
+header .navlinks ul li a {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+    position: relative;
+    padding: 5px;
+}
+
+header .navlinks ul li a.active::before {
+    content: "";
+    position: absolute;
+    height: 1.5px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    background: linear-gradient(270deg, #FB7EFF 0%, #1717FF 46.88%, #00E7FF 100%);
+}
+
+header .navlinks ul li a:hover::before {
+    content: "";
+    position: absolute;
+    height: 1.5px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    background: linear-gradient(270deg, #FB7EFF 0%, #1717FF 46.88%, #00E7FF 100%);
+}
+
+header .btn-div button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    gap: 10px;
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: right;
+    color: #262626;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+}

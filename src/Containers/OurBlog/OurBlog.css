@@ -1,0 +1,156 @@
+.blog .hero-what-we-do {
+    padding: 100px 0;
+}
+
+.blog .hero-what-we-do h1 {
+    margin: auto;
+    width: 856px;
+}
+
+.blog .section1 {
+    margin-top: 0;
+}
+
+.blog .footer-top-main {
+    padding-top: 120px;
+}
+
+.blog .footer-top-main .footer-top-text .btn-gradient-border button {
+    width: 216px;
+    height: 76px;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.blog a {
+    text-decoration: none;
+}
+
+.blog .tabsDiv {
+    text-align: center;
+}
+
+.blog .section1 .nav-tabs {
+    border: none;
+    justify-content: space-between;
+    width: 845px;
+    margin: auto;
+}
+
+.blog .section1 .nav-tabs .nav-item {
+    background: linear-gradient(270deg, #1717FF 0%, #FF4DFF 100%);
+}
+
+.blog .section1 .nav-tabs .nav-item div {
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+    background-color: #fff;
+    border-radius: 0;
+    background: linear-gradient(270deg, #FB7EFF 0%, #1717FF 46.88%, #00E7FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #000 !important;
+    background-clip: text;
+    text-fill-color: #000 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.blog .section1 .nav-tabs .nav-item.latest {
+    width: 163px;
+    height: 72px;
+}
+
+.blog .section1 .nav-tabs .nav-item.design {
+    width: 172px;
+    height: 72px;
+}
+
+.blog .section1 .nav-tabs .nav-item.development {
+    width: 258px;
+    height: 72px;
+}
+
+.blog .section1 .nav-tabs .nav-item.seo {
+    width: 132px;
+    height: 72px;
+}
+
+.blog .section1 .nav-tabs .nav-item .nav-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    padding-bottom: 2px;
+    padding: 20px 30px;
+}
+
+.blog .section1 .nav-tabs .nav-item .nav-link.active {
+    height: 70px;
+    /* padding: 0; */
+}
+
+.blog .section1 .nav-tabs .nav-item .nav-link.active div {
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text;
+    text-fill-color: transparent !important;
+}
+
+.blog .section1 .blog-single h5{
+    text-align: left;
+    margin-top: 24px;
+}
+
+.blog .section1 .blog-single:hover h5{
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.blog .section1 .emptyBlogTab {
+    padding: 72px;
+}
+
+.blog .section1 .emptyBlogTab .heading{
+    margin-top: 32px;
+}
+
+.blog .section1 .blog-listing {
+    padding: 60px 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog .footer-top-main {
+    padding-top: 80px;
+}
+
+.blog .footer-top-main .footer-top-text .btn-gradient-border button {
+    width: 216px;
+    height: 76px;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.blog a{
+    text-decoration: none;
+}

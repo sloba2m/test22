@@ -1,0 +1,27 @@
+.pastWork .hero-what-we-do {
+    padding: 100px 0;
+}
+
+.pastWork .hero-what-we-do h1 {
+    margin: auto;
+    width: 880px;
+}
+
+.pastWork .section1 {
+    margin-top: 60px;
+}
+
+.pastWork .footer-top-main {
+    padding-top: 120px;
+}
+
+.pastWork .footer-top-main .footer-top-text .btn-gradient-border button {
+    width: 216px;
+    height: 76px;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.pastWork a{
+    text-decoration: none;
+}
