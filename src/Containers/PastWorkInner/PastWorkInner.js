@@ -118,7 +118,7 @@ function PastWorkInner() {
                             </div>
                             <div className='list-div'>
                                 <Row>
-                                    <Col md={6}>
+                                    <Col lg={6} md={12}>
                                         <div className='list'>
                                             <div className='text-div'>
                                                 <p>
@@ -134,8 +134,8 @@ function PastWorkInner() {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col md={6}>
-                                        <div className='list'>
+                                    <Col lg={6} md={12}>
+                                        <div className='list list2'>
                                             <div className='text-div'>
                                                 <p>
                                                     Gaining a competitive edge and attracting new customers through efficient design techniques and modern brand identity.
@@ -164,7 +164,7 @@ function PastWorkInner() {
                             </div>
                             <div className='list-div'>
                                 <Row>
-                                    <Col md={6}>
+                                    <Col lg={6} md={12}>
                                         <div className='list'>
                                             <div className='text-div'>
                                                 <p>
@@ -180,7 +180,7 @@ function PastWorkInner() {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col md={6}>
+                                    <Col lg={6} md={12}>
                                         <div className='list'>
                                             <div className='text-div'>
                                                 <p>
@@ -243,10 +243,10 @@ function PastWorkInner() {
                             </div>
                             <div className='img-div'>
                                 <Row>
-                                    <Col md={6}>
+                                    <Col xs={6}>
                                         <img src={section7Image1} alt='Archetypical personas' />
                                     </Col>
-                                    <Col md={6}>
+                                    <Col xs={6}>
                                         <img className='topSpace' src={section7Image2} alt='Archetypical personas' />
                                     </Col>
                                 </Row>
@@ -313,10 +313,10 @@ function PastWorkInner() {
                             </div>
                             <div className='img-div'>
                                 <Row>
-                                    <Col md={6}>
+                                    <Col xs={6}>
                                         <img className='topSpace' src={section10Image1} alt='Academic cap concept' />
                                     </Col>
-                                    <Col md={6}>
+                                    <Col xs={6}>
                                         <img src={section10Image2} alt='Academic cap concept' />
                                     </Col>
                                 </Row>

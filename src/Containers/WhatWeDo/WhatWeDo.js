@@ -26,6 +26,7 @@ import Service18Icon from '../../assets/images/whatWeDo/Big-updates.png'
 
 import './WhatWeDo.css'
 import FooterTop from '../../Components/FooterTop/FooterTop'
+import { NavLink } from 'react-router-dom'
 
 function WhatWeDo() {
 
@@ -45,7 +46,7 @@ function WhatWeDo() {
                     <Row>
                         <Col md={12}>
                             <div className='heading'>
-                                <h1 className='before-after h1-large-font'>Customized Solutions for Your <span>Business Growth</span></h1>
+                                <h1 className='before-after h1-large-font'>Customized Solutions <br />for Your <span>Business Growth</span></h1>
                             </div>
 
                             <div className='text-div'>
@@ -62,462 +63,228 @@ function WhatWeDo() {
                 </Container>
             </div>
 
-            <div className='clientProfiling section1'>
+            <section className='section1'>
                 <Container>
-                    <Row className='align-items-end'>
-                        <Col md={6}>
-                            <div className='heading'>
-                                <h4><span>CLIENT PROFILING</span></h4>
-                                <h3>Client Profiling: Unlocking Insights for Targeted Success</h3>
-                            </div>
-                        </Col>
-                        <Col md={6}>
-                            <div className='text-div head'>
-                                <p>Gain valuable insights into your target audience through client profiling. Optimize your marketing strategies for maximum engagement and conversion.</p>
-                            </div>
-                        </Col>
-
+                    <Row>
                         <Col md={12}>
                             <div className='service-main'>
                                 <Row>
-                                    <Col md={4}>
+                                    <Col lg={4} sm={6}>
                                         <div className='service-border-div'>
                                             <div className='service-div'>
                                                 <div className='icon-div'>
-                                                    <img src={Service1Icon} alt='Market analysis' />
+                                                    <img src={Service1Icon} alt='Consultation and Requirement Gathering' />
                                                 </div>
                                                 <div className='heading'>
-                                                    <h4>Market analysis </h4>
+                                                    <h4>Consultation and Requirement Gathering</h4>
                                                 </div>
-                                                <div className='text-div text-center'>
-                                                    <p>
-                                                        We conduct in-depth analysis to effectively understand and target specific client demographics, optimizing your marketing strategies.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col md={4}>
-                                        <div className='service-border-div'>
-                                            <div className='service-div'>
-                                                <div className='icon-div'>
-                                                    <img src={Service2Icon} alt='Competitive research' />
-                                                </div>
-                                                <div className='heading'>
-                                                    <h4>Competitive research</h4>
-                                                </div>
-                                                <div className='text-div text-center'>
-                                                    <p>
-                                                        provides professional creative solutions for visual communication, using innovative strategies to solve problems and deliver impactful results.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col md={4}>
-                                        <div className='service-border-div'>
-                                            <div className='service-div'>
-                                                <div className='icon-div'>
-                                                    <img src={Service3Icon} alt='Campaign Ideation' />
-                                                </div>
-                                                <div className='heading'>
-                                                    <h4>Campaign Ideation</h4>
-                                                </div>
-                                                <div className='text-div text-center'>
-                                                    <p>
-                                                        We offer professional services for developing innovative solutions and products, delivering excellence through our expertise and creativity.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col md={4}>
-                                        <div className='service-border-div'>
-                                            <div className='service-div'>
-                                                <div className='icon-div'>
-                                                    <img src={Service4Icon} alt='Persona Development' />
-                                                </div>
-                                                <div className='heading'>
-                                                    <h4>Persona Development</h4>
-                                                </div>
-                                                <div className='text-div text-center'>
-                                                    <p>
-                                                        Seamless hosting for reliable online presence. Trust us with your website's performance and success.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col md={4}>
-                                        <div className='service-border-div'>
-                                            <div className='service-div'>
-                                                <div className='icon-div'>
-                                                    <img src={Service5Icon} alt='Heuristic Evaluation' />
-                                                </div>
-                                                <div className='heading'>
-                                                    <h4>Heuristic <br /> Evaluation</h4>
-                                                </div>
-                                                <div className='text-div text-center'>
-                                                    <p>
-                                                        Persona Development: Craft detailed profiles for precise targeting and personalized communication strategies.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col md={4}>
-                                        <div className='service-border-div'>
-                                            <div className='service-div'>
-                                                <div className='icon-div'>
-                                                    <img src={Service6Icon} alt='Digital Strategy' />
-                                                </div>
-                                                <div className='heading'>
-                                                    <h4>Digital Strategy</h4>
-                                                </div>
-                                                <div className='text-div text-center'>
-                                                    <p>
-                                                        Digital Strategy: Drive your online success with strategic planning and execution.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                </Row>
-                            </div>
-                        </Col>
+                                                <div className='text-div'>
+                                                    <ol>
+                                                        <li>Discovery and Analysis</li>
+                                                        <li>Crafting User-Centric Design</li>
+                                                        <li>Defining Project Scope</li>
+                                                        <li>Visualizing Concepts</li>
+                                                    </ol>
 
-                        <Col md={12}>
-                            <div className='bg-div' aria-label='CLIENT PROFILING'>
+                                                    <NavLink to='/what-we-do/Consultation-and-Requirement-Gathering'>LEARN MORE</NavLink>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col lg={4} sm={6}>
+                                        <div className='service-border-div'>
+                                            <div className='service-div'>
+                                                <div className='icon-div'>
+                                                    <img src={Service2Icon} alt='DESIGN' />
+                                                </div>
+                                                <div className='heading'>
+                                                    <h4>Design Concept and Mockups</h4>
+                                                </div>
+                                                <div className='text-div'>
+                                                    <ol>
+                                                        <li>Visualizing Your Vision</li>
+                                                        <li>Inspiring Visual Language</li>
+                                                        <li>Structuring the Blueprint</li>
+                                                        <li>Bringing Design to Life</li>
+                                                    </ol>
+
+                                                    <NavLink to='/what-we-do/Design-Concept-and-Mockups'>LEARN MORE</NavLink>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col lg={4} sm={6}>
+                                        <div className='service-border-div'>
+                                            <div className='service-div'>
+                                                <div className='icon-div'>
+                                                    <img src={Service3Icon} alt='Develop' />
+                                                </div>
+                                                <div className='heading'>
+                                                    <h4>Custom Design and Development</h4>
+                                                </div>
+                                                <div className='text-div'>
+                                                    <ol>
+                                                        <li>Front-End Development</li>
+                                                        <li>Responsive Design</li>
+                                                        <li>Content Integration and Interactive Functionality</li>
+                                                        <li>Testing, Optimization, and Deployment</li>
+                                                    </ol>
+
+                                                    <NavLink to='/what-we-do/Custom-Design-and-Development'>LEARN MORE</NavLink>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col lg={4} sm={6}>
+                                        <div className='service-border-div'>
+                                            <div className='service-div'>
+                                                <div className='icon-div'>
+                                                    <img src={Service4Icon} alt='Optimize' />
+                                                </div>
+                                                <div className='heading'>
+                                                    <h4>Content Integration</h4>
+                                                </div>
+                                                <div className='text-div'>
+                                                    <ol>
+                                                        <li>Code Craftsmanship</li>
+                                                        <li>Adapting to All Screens</li>
+                                                        <li>Seamless Integration and Engaging Interactions</li>
+                                                        <li>Testing, Optimizing, and Launching</li>
+                                                    </ol>
+
+                                                    <NavLink to='/what-we-do/Content-Integration'>LEARN MORE</NavLink>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col lg={4} sm={6}>
+                                        <div className='service-border-div'>
+                                            <div className='service-div'>
+                                                <div className='icon-div'>
+                                                    <img src={Service5Icon} alt='Maintenance' />
+                                                </div>
+                                                <div className='heading'>
+                                                    <h4>Responsive Design</h4>
+                                                </div>
+                                                <div className='text-div'>
+                                                    <ol>
+                                                        <li>Dynamic Grids</li>
+                                                        <li>Customized Styles</li>
+                                                        <li>Adapting Visuals</li>
+                                                        <li>User-Friendly Experience</li>
+                                                    </ol>
+
+                                                    <NavLink to='/what-we-do/Responsive-Design'>LEARN MORE</NavLink>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col lg={4} sm={6}>
+                                        <div className='service-border-div'>
+                                            <div className='service-div'>
+                                                <div className='icon-div'>
+                                                    <img src={Service6Icon} alt='Maintenance' />
+                                                </div>
+                                                <div className='heading'>
+                                                    <h4>Functionality and Features</h4>
+                                                </div>
+                                                <div className='text-div'>
+                                                    <ol>
+                                                        <li>Feature Identification</li>
+                                                        <li>Planning, Design, and Integration</li>
+                                                        <li>Custom Development</li>
+                                                        <li>Testing, UX Considerations, Documentation, and Support</li>
+                                                    </ol>
+
+                                                    <NavLink to='/what-we-do/Functionality-and-Features'>LEARN MORE</NavLink>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col lg={4} sm={6}>
+                                        <div className='service-border-div'>
+                                            <div className='service-div'>
+                                                <div className='icon-div'>
+                                                    <img src={Service7Icon} alt='Maintenance' />
+                                                </div>
+                                                <div className='heading'>
+                                                    <h4>Testing and Quality Assurance</h4>
+                                                </div>
+                                                <div className='text-div'>
+                                                    <ol>
+                                                        <li>Unveiling the Possibilities</li>
+                                                        <li>Strategic Planning and Seamless Integration</li>
+                                                        <li>Tailored Solutions</li>
+                                                        <li>Ensuring Excellence</li>
+                                                    </ol>
+
+                                                    <NavLink to='/what-we-do/Testing-and-Quality-Assurance'>LEARN MORE</NavLink>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col lg={4} sm={6}>
+                                        <div className='service-border-div'>
+                                            <div className='service-div'>
+                                                <div className='icon-div'>
+                                                    <img src={Service8Icon} alt='Maintenance' />
+                                                </div>
+                                                <div className='heading'>
+                                                    <h4>Deployment and Launch</h4>
+                                                </div>
+                                                <div className='text-div'>
+                                                    <ol>
+                                                        <li>Setting the Stage</li>
+                                                        <li>Secure Transfers and Dynamic Foundations</li>
+                                                        <li>Domain Alignment and Final Checks</li>
+                                                        <li>Speed and Efficiency</li>
+                                                    </ol>
+
+                                                    <NavLink to='/what-we-do/Deployment-and-Launch'>LEARN MORE</NavLink>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col lg={4} sm={6}>
+                                        <div className='service-border-div'>
+                                            <div className='service-div'>
+                                                <div className='icon-div'>
+                                                    <img src={Service9Icon} alt='Maintenance' />
+                                                </div>
+                                                <div className='heading'>
+                                                    <h4>Ongoing Support and Maintenance</h4>
+                                                </div>
+                                                <div className='text-div'>
+                                                    <ol>
+                                                        <li>Reliable Support and Issue Resolution</li>
+                                                        <li>Safeguarding Stability</li>
+                                                        <li>Driving Efficiency</li>
+                                                        <li>Content Care and Expert Guidance</li>
+                                                    </ol>
+
+                                                    <NavLink to='/what-we-do/Ongoing-Support-and-Maintenance'>LEARN MORE</NavLink>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    {/* <Col lg={4} md={6}>
+                    <div className='service-border-div'>
+                      <div className='service-div see-all'>
+                        <div className='see-all-icon'>
+                          <img src={ServiceSeeAll} />
+                        </div>
+                        <div className='heading'>
+                          <h2>See All Services.</h2>
+                        </div>
+                      </div>
+                    </div>
+                  </Col> */}
+                                </Row>
                             </div>
                         </Col>
                     </Row>
                 </Container>
-            </div>
-
-            <div className='design section1'>
-                <Container>
-                    <Row className='align-items-end'>
-                        <Col md={6}>
-                            <div className='heading'>
-                                <h4><span>DESIGN</span></h4>
-                                <h3>Elevate Your Vision with Exceptional Design Services</h3>
-                            </div>
-                        </Col>
-                        <Col md={6}>
-                            <div className='text-div head'>
-                                <p>Unleash your creativity with our exceptional design services. We craft captivating visuals that make a lasting impact. Let's bring your ideas to life.</p>
-                            </div>
-                        </Col>
-
-                        <Col md={12}>
-                            <div className='service-main'>
-                                <Row>
-                                    <Col md={4}>
-                                        <div className='service-border-div'>
-                                            <div className='service-div'>
-                                                <div className='icon-div'>
-                                                    <img src={Service7Icon} alt='ui/ux design' />
-                                                </div>
-                                                <div className='heading'>
-                                                    <h4>ui/ux design</h4>
-                                                </div>
-                                                <div className='text-div text-center'>
-                                                    <p>
-                                                        Efficient service to enhance performance and maximize effectiveness of systems.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col md={4}>
-                                        <div className='service-border-div'>
-                                            <div className='service-div'>
-                                                <div className='icon-div'>
-                                                    <img src={Service8Icon} alt='logo DESIGN' />
-                                                </div>
-                                                <div className='heading'>
-                                                    <h4>logo DESIGN</h4>
-                                                </div>
-                                                <div className='text-div text-center'>
-                                                    <p>
-                                                        Crafting visually captivating logos that embody your brand's identity and leave a memorable impression.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col md={4}>
-                                        <div className='service-border-div'>
-                                            <div className='service-div'>
-                                                <div className='icon-div'>
-                                                    <img src={Service9Icon} alt='Business card' />
-                                                </div>
-                                                <div className='heading'>
-                                                    <h4>Business card</h4>
-                                                </div>
-                                                <div className='text-div text-center'>
-                                                    <p>
-                                                        Designing stylish and professional business cards that effectively showcase your contact information and leave a lasting impression.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                </Row>
-                            </div>
-                        </Col>
-
-                        <Col md={12}>
-                            <div className='bg-div' aria-label='DESIGN'>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </div>
-
-            <div className='develop section1'>
-                <Container>
-                    <Row className='align-items-end'>
-                        <Col md={6}>
-                            <div className='heading'>
-                                <h4><span>DEVELOP</span></h4>
-                                <h3>Powerful Solutions<br />
-                                    Our Development Services</h3>
-                            </div>
-                        </Col>
-                        <Col md={6}>
-                            <div className='text-div head'>
-                                <p>Expert development service turning your ideas into robust solutions with cutting-edge technology and seamless functionality.</p>
-                            </div>
-                        </Col>
-
-                        <Col md={12}>
-                            <div className='service-main'>
-                                <Row>
-                                    <Col md={4}>
-                                        <div className='service-border-div'>
-                                            <div className='service-div'>
-                                                <div className='icon-div'>
-                                                    <img src={Service10Icon} alt='Frontend code' />
-                                                </div>
-                                                <div className='heading'>
-                                                    <h4>Frontend code</h4>
-                                                </div>
-                                                <div className='text-div text-center'>
-                                                    <p>
-                                                        Visually appealing frontend code bringing designs to life with seamless user experiences.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col md={4}>
-                                        <div className='service-border-div'>
-                                            <div className='service-div'>
-                                                <div className='icon-div'>
-                                                    <img src={Service11Icon} alt='Backend code' />
-                                                </div>
-                                                <div className='heading'>
-                                                    <h4>Backend code</h4>
-                                                </div>
-                                                <div className='text-div text-center'>
-                                                    <p>
-                                                        Robust backend code for powerful web applications and seamless system performance.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col md={4}>
-                                        <div className='service-border-div'>
-                                            <div className='service-div'>
-                                                <div className='icon-div'>
-                                                    <img src={Service12Icon} alt='Database' />
-                                                </div>
-                                                <div className='heading'>
-                                                    <h4>Database</h4>
-                                                </div>
-                                                <div className='text-div text-center'>
-                                                    <p>
-                                                        Empower your business with secure, scalable database solutions for efficient data management and organization.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                </Row>
-                            </div>
-                        </Col>
-
-                        <Col md={12}>
-                            <div className='bg-div' aria-label='DEVELOP'>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </div>
-
-            <div className='optimize section1'>
-                <Container>
-                    <Row className='align-items-end'>
-                        <Col md={6}>
-                            <div className='heading'>
-                                <h4><span>OPTIMIZE</span></h4>
-                                <h3>Optimize Your Success with Our Powerful Optimization Services</h3>
-                            </div>
-                        </Col>
-                        <Col md={6}>
-                            <div className='text-div head'>
-                                <p>Unlock potential with our optimization service. From SEO to performance enhancements, we boost efficiency and drive measurable results.</p>
-                            </div>
-                        </Col>
-
-                        <Col md={12}>
-                            <div className='service-main'>
-                                <Row>
-                                    <Col md={4}>
-                                        <div className='service-border-div'>
-                                            <div className='service-div'>
-                                                <div className='icon-div'>
-                                                    <img src={Service13Icon} alt='analytics' />
-                                                </div>
-                                                <div className='heading'>
-                                                    <h4>analytics</h4>
-                                                </div>
-                                                <div className='text-div text-center'>
-                                                    <p>
-                                                        Data-driven insights driving growth and efficiency in industries through informed decision-making and optimization.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col md={4}>
-                                        <div className='service-border-div'>
-                                            <div className='service-div'>
-                                                <div className='icon-div'>
-                                                    <img src={Service14Icon} alt='SEO' />
-                                                </div>
-                                                <div className='heading'>
-                                                    <h4>SEO</h4>
-                                                </div>
-                                                <div className='text-div text-center'>
-                                                    <p>
-                                                        Drive online success with SEO. Enhance visibility, attract traffic, and rank higher in search engine results.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col md={4}>
-                                        <div className='service-border-div'>
-                                            <div className='service-div'>
-                                                <div className='icon-div'>
-                                                    <img src={Service15Icon} alt='Blog Post Creation' />
-                                                </div>
-                                                <div className='heading'>
-                                                    <h4>Blog Post Creation</h4>
-                                                </div>
-                                                <div className='text-div text-center'>
-                                                    <p>
-                                                        Engaging blog posts that captivate readers and boost brand awareness.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                </Row>
-                            </div>
-                        </Col>
-
-                        <Col md={12}>
-                            <div className='bg-div' aria-label='OPTIMIZE'>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </div>
-
-            <div className='maintenance section1'>
-                <Container>
-                    <Row className='align-items-end'>
-                        <Col md={6}>
-                            <div className='heading'>
-                                <h4><span>MAINTENANCE</span></h4>
-                                <h3>Seamless Operation. Expert Maintenance Services</h3>
-                            </div>
-                        </Col>
-                        <Col md={6}>
-                            <div className='text-div head'>
-                                <p>Reliable maintenance services ensuring smooth operation, proactive care, and efficient solutions for your systems. Trust us for hassle-free maintenance.</p>
-                            </div>
-                        </Col>
-
-                        <Col md={12}>
-                            <div className='service-main'>
-                                <Row>
-                                    <Col md={4}>
-                                        <div className='service-border-div'>
-                                            <div className='service-div'>
-                                                <div className='icon-div'>
-                                                    <img src={Service16Icon} alt='Hosting' />
-                                                </div>
-                                                <div className='heading'>
-                                                    <h4>Hosting </h4>
-                                                </div>
-                                                <div className='text-div text-center'>
-                                                    <p>
-                                                        Seamless hosting for reliable online presence. Trust us with your website's performance and success.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col md={4}>
-                                        <div className='service-border-div'>
-                                            <div className='service-div'>
-                                                <div className='icon-div'>
-                                                    <img src={Service17Icon} alt='Small updates' />
-                                                </div>
-                                                <div className='heading'>
-                                                    <h4>Small updates</h4>
-                                                </div>
-                                                <div className='text-div text-center'>
-                                                    <p>
-                                                        Freshen up your website with efficient updates. Enhance user experience with timely improvements.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col md={4}>
-                                        <div className='service-border-div'>
-                                            <div className='service-div'>
-                                                <div className='icon-div'>
-                                                    <img src={Service18Icon} alt='Big updates' />
-                                                </div>
-                                                <div className='heading'>
-                                                    <h4>Big updates</h4>
-                                                </div>
-                                                <div className='text-div text-center'>
-                                                    <p>
-                                                        Revitalize your website with impactful updates. Experience enhanced functionality and modern design. Trust our expertise.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                </Row>
-                            </div>
-                        </Col>
-
-                        <Col md={12}>
-                            <div className='bg-div' aria-label='MAINTENANCE'>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </div>
+            </section>
 
             <FooterTop />
         </div>

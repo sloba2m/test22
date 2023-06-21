@@ -14,6 +14,7 @@ import PastWork from './Containers/PastWork/PastWork';
 import PastWorkInner from './Containers/PastWorkInner/PastWorkInner';
 import OurBlog from './Containers/OurBlog/OurBlog';
 import OurBlogInnerPage from './Containers/OurBlogInnerPage/OurBlogInnerPage';
+import WhatWeDoInner from './Containers/WhatWeDoInner/WhatWeDoInner';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route exact path='/' element={<Home />} />
           <Route exact path='/contact' element={<Contact />} />
           <Route exact path='/what-we-do' element={<WhatWeDo />} />
+          <Route exact path='/what-we-do/:id' element={<WhatWeDoInner />} />
           <Route exact path='/past-work' element={<PastWork />} />
           <Route exact path='/past-work/:id' element={<PastWorkInner />} />
           <Route exact path='/our-blog' element={<OurBlog />} />

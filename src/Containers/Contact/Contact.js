@@ -17,8 +17,8 @@ function Contact() {
                     <Row>
                         <Col md={8}>
                             <div className='heading'>
-                                <h1 className='before-after'>Love to hear from you<br />
-                                    <span>Get in touch.</span></h1>
+                                <h1 className='before-after'>Love to hear from you <br />
+                                    <span> Get in touch.</span></h1>
                             </div>
                         </Col>
                         <Col md={4}>

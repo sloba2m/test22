@@ -54,7 +54,7 @@
     transition: 0.7s;
 }
 
-.contact .section1 form .input-div input:hover {   
+.contact .section1 form .input-div input:hover {
     border-bottom: 0.5px solid #737373;
 }
 
@@ -83,7 +83,7 @@
     transition: 0.7s;
 }
 
-.contact .section1 form .input-div select:hover {   
+.contact .section1 form .input-div select:hover {
     border-bottom: 0.5px solid #737373;
 }
 
@@ -197,10 +197,11 @@
     padding-right: 30px;
 }
 
-.contact .section2 .accordion-button::after{
+.contact .section2 .accordion-button::after {
     transform: rotate(270deg);
 }
 
-.accordion-button:not(.collapsed)::after{
+.accordion-button:not(.collapsed)::after {
     transform: rotate(360deg) !important;
 }
+

@@ -161,16 +161,16 @@ li {
 
 .service-div {
     width: 100%;
-    height: 364px;
+    height: 478px;
     left: 113px;
     top: 759px;
     background: #FFFFFF;
     box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.03);
     border-radius: 24px;
     display: flex;
-    padding: 37px 32px;
+    padding: 38.5px 42px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -183,6 +183,13 @@ li {
     text-align: right;
 }
 
+.service-div .heading{
+    margin-top: 15px;
+    min-height: 108px;
+    display: flex;
+    align-items: center;
+}
+
 .service-div .heading h2 {
     text-align: left;
 }
@@ -192,12 +199,35 @@ li {
 }
 
 .service-div .text-div {
-    /* margin-top: 12px; */
+    margin-top: 12px;
+    width: 80%;
+    margin-right: auto;
 }
 
 .service-div .text-div p {
     height: 75px;
     overflow: hidden;
+}
+
+.service-div .text-div ol {
+    padding-left: 20px;
+    margin: 0;
+    color: #737373;
+    margin-bottom: 20px;
+}
+
+.service-div .text-div ol li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.service-div .text-div a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #737373;
+    text-decoration: none;
 }
 
 .past-work-box {
@@ -321,4 +351,288 @@ li {
     font-weight: 700;
     font-size: 36px;
     line-height: 140%;
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .heading h1 {
+        font-size: 48px;
+        line-height: 120%;
+        width: 723px;
+        margin: auto;
+    }
+
+    .heading h1.before-after::before {
+        width: 45.95px;
+        height: 40px;
+        right: -15px;
+        top: -15px;
+    }
+
+    .heading h1.before-after::after {
+        width: 45.95px;
+        height: 40px;
+        left: -15px;
+        bottom: 10px;
+    }
+
+    .heading h2 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .heading h3 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .heading h4 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
+    .text-div p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .service-div {
+        height: 387px;
+    }
+
+    .service-border-div {
+        margin-bottom: 20px;
+    }
+
+    .service-div .heading h4 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .footer-top-main .footer-top-text {
+        padding: 46px 40px;
+        width: 748px;
+        margin: auto;
+    }
+
+    .footer-top-main .footer-top-text .heading h1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        height: auto;
+        width: 90%;
+        margin: 0;
+    }
+
+    .past-work-box {
+        height: 387px;
+        margin-bottom: 25px;
+    }
+
+    .pastWork .footer-top-main {
+        padding-top: 100px;
+    }
+
+    .past-work-box .img-div {
+        height: calc(100% - 143px);
+    }
+
+    .past-work-box .text {
+        padding: 24px;
+    }
+
+    .past-work-box .text .text-div {
+        margin-top: 13px;
+    }
+
+    .past-work-box .text .text-div p {
+        width: 100%;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .blog-single .img-div {
+        height: 387px;
+    }
+
+    .blog-single h5 {
+        text-align: center;
+    }
+
+    .blog-single {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-gradient-border button {
+        width: 160px;
+        height: 50px;
+        padding: 14px 26px !important;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .heading h1 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 140%;
+        margin: auto;
+    }
+
+    .heading h1.before-after::before {
+        display: none;
+    }
+
+    .heading h1.before-after::after {
+        display: none;
+    }
+
+    .heading h2 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .heading h3 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .heading h4 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+
+    .text-div p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .service-div {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .service-border-div {
+        margin-bottom: 24px;
+    }
+
+    .service-div .heading{
+        min-height: auto;
+    }
+
+    .service-div .heading h4 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: left;
+        /* margin-bottom: 20px;
+        margin-top: 32px; */
+    }
+
+    .service-div .text-div p {
+        height: 96px;
+    }
+
+    .footer-top-main {
+        padding-top: 0;
+    }
+
+    .footer-top-main .footer-top-text {
+        width: 100%;
+        flex-wrap: wrap;
+        background: transparent;
+        box-shadow: none;
+        margin: auto;
+        padding: 60px 0;
+    }
+
+    .footer-top-main .footer-top-text .heading {
+        width: 100%;
+    }
+
+    .footer-top-main .footer-top-text .heading h1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        height: auto;
+        width: 100%;
+        margin: 0;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 140%;
+        text-align: center;
+    }
+
+    .footer-top-main .footer-top-text .btn-div {
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .footer-top-main .footer-top-text .btn-gradient-border button {
+        width: 146px;
+        height: 50px;
+        padding: 16px 32px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .past-work-box {
+        height: auto;
+        margin-bottom: 24px;
+    }
+
+    .pastWork .footer-top-main {
+        padding-top: 100px;
+    }
+
+    .past-work-box .img-div {
+        height: calc(100% - 143px);
+    }
+
+    .past-work-box .text {
+        padding: 24px;
+    }
+
+    .past-work-box .text .text-div {
+        margin-top: 13px;
+    }
+
+    .past-work-box .text .text-div p {
+        width: 100%;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .blog-single .img-div {
+        height: auto;
+    }
+
+    .blog-single h5 {
+        text-align: center;
+    }
+
+    .blog-single {
+        margin-bottom: 24px;
+    }
 }

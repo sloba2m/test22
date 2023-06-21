@@ -34,7 +34,7 @@ function PastWork() {
       <section className='section1'>
         <Container>
           <Row>
-            <Col md={6}>
+            <Col sm={6}>
               <NavLink to='/past-work/the-variable'>
                 <div className='past-work-box'>
                   <div className='img-div'>
@@ -53,7 +53,7 @@ function PastWork() {
                 </div>
               </NavLink>
             </Col>
-            <Col md={6}>
+            <Col sm={6}>
               <NavLink to='/past-work/spaces'>
                 <div className='past-work-box'>
                   <div className='img-div'>
@@ -72,7 +72,7 @@ function PastWork() {
                 </div>
               </NavLink>
             </Col>
-            <Col md={6}>
+            <Col sm={6}>
               <NavLink to='/past-work/bling'>
                 <div className='past-work-box'>
                   <div className='img-div'>
@@ -91,7 +91,7 @@ function PastWork() {
                 </div>
               </NavLink>
             </Col>
-            <Col md={6}>
+            <Col sm={6}>
               <NavLink to='/past-work/mixmo'>
                 <div className='past-work-box'>
                   <div className='img-div'>
@@ -110,7 +110,7 @@ function PastWork() {
                 </div>
               </NavLink>
             </Col>
-            <Col md={6}>
+            <Col sm={6}>
               <NavLink to='/past-work/go-trade'>
                 <div className='past-work-box'>
                   <div className='img-div'>
@@ -129,7 +129,7 @@ function PastWork() {
                 </div>
               </NavLink>
             </Col>
-            <Col md={6}>
+            <Col sm={6}>
               <NavLink to='/past-work/heytutor'>
                 <div className='past-work-box'>
                   <div className='img-div'>

@@ -9,11 +9,15 @@ import latest4 from '../../assets/images/blogs/Improvement.png'
 import latest5 from '../../assets/images/blogs/Businesspeople.png'
 import latest6 from '../../assets/images/blogs/Stock-market.png'
 
+import selectIcon from '../../assets/images/blogs/arrow-down.png'
+
 import './OurBlog.css'
 import FooterTop from '../../Components/FooterTop/FooterTop'
 import { NavLink } from 'react-router-dom'
 
 function OurBlog() {
+
+    let [selectedTab, setSelectedTab] = useState("latest")
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -63,6 +67,19 @@ function OurBlog() {
         }
     ])
 
+    const toggleClass = (e) => {
+        let val = e.target.value.toLowerCase()
+        let allTabs = document.getElementsByClassName("tab-pane")
+        for (let i = 0; i < allTabs.length; i++) {
+            allTabs[i].classList.remove("active")
+            allTabs[i].classList.remove("show")
+        }
+        document.getElementById(val).classList.add("active")
+        document.getElementById(val).classList.add("show")
+
+        setSelectedTab(val)
+    }
+
     return (
         <div className='blog'>
             <div className='hero hero-what-we-do'>
@@ -70,7 +87,7 @@ function OurBlog() {
                     <Row>
                         <Col md={12}>
                             <div className='heading'>
-                                <h1 className='h1-large-font'>We Write About: Design, <span>Tech & Business</span></h1>
+                                <h1 className='h1-large-font'>We Write About:<br /> Design, <span>Tech & Business</span></h1>
                             </div>
                         </Col>
                     </Row>
@@ -112,6 +129,18 @@ function OurBlog() {
                                         </button>
                                     </li>
                                 </ul>
+
+                                <div className='selectBlogHead'>
+                                    <img src={selectIcon} />
+                                    <div className='bg-white'>
+                                        <select value={selectedTab} onChange={(e) => toggleClass(e)}>
+                                            <option value={"latest"} >LATEST</option>
+                                            <option value={"design"}>DESIGN</option>
+                                            <option value={"development"}>DEVELOPMENT</option>
+                                            <option value={"seo"}>SEO</option>
+                                        </select>
+                                    </div>
+                                </div>
                                 <div className="tab-content" id="myTabContent">
 
                                     {data.map((a, i) => {
@@ -121,7 +150,7 @@ function OurBlog() {
                                                     <div className='blog-listing row'>
                                                         {a.data.map((b, i) => {
                                                             return (
-                                                                <Col key={`${a.name}-${i}`} md={4}>
+                                                                <Col key={`${a.name}-${i}`} lg={4} sm={6}>
                                                                     <NavLink to={`/our-blog/our-blog-inner-page`}>
                                                                         <div className='blog-single'>
                                                                             <div className='img-div'>

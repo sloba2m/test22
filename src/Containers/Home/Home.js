@@ -57,18 +57,18 @@ function Home() {
         </Container>
       </div>
 
-      <section className='home-sec-1 text-center'>
+      <section className='home-sec-1'>
         <Container>
           <Row>
             <Col md={12}>
-              <div className='heading'>
+              <div className='heading text-center'>
                 <h2>Our Process</h2>
               </div>
             </Col>
             <Col md={12}>
               <div className='service-main'>
                 <Row>
-                  <Col lg={4} md={6}>
+                  <Col lg={4} sm={6}>
                     <div className='service-border-div'>
                       <div className='service-div'>
                         <div className='icon-div'>
@@ -77,15 +77,20 @@ function Home() {
                         <div className='heading'>
                           <h4>Consultation and Requirement Gathering</h4>
                         </div>
-                        <div className='text-div text-center'>
-                          <p>
-                            Our team provides professional creative solutions for visual communication, using innovative strategies to solve problems and deliver impactful results.
-                          </p>
+                        <div className='text-div'>
+                          <ol>
+                            <li>Discovery and Analysis</li>
+                            <li>Crafting User-Centric Design</li>
+                            <li>Defining Project Scope</li>
+                            <li>Visualizing Concepts</li>
+                          </ol>
+
+                          <NavLink to='/what-we-do/Consultation-and-Requirement-Gathering'>LEARN MORE</NavLink>
                         </div>
                       </div>
                     </div>
                   </Col>
-                  <Col lg={4} md={6}>
+                  <Col lg={4} sm={6}>
                     <div className='service-border-div'>
                       <div className='service-div'>
                         <div className='icon-div'>
@@ -94,15 +99,20 @@ function Home() {
                         <div className='heading'>
                           <h4>Design Concept and Mockups</h4>
                         </div>
-                        <div className='text-div text-center'>
-                          <p>
-                            Based on your requirements and branding guidelines, the web design team will create design concepts and mockups for your website. These will showcase the visual elements, layout, and overall user experience. You'll have the opportunity to review and provide feedback to refine the design.
-                          </p>
+                        <div className='text-div'>
+                          <ol>
+                            <li>Visualizing Your Vision</li>
+                            <li>Inspiring Visual Language</li>
+                            <li>Structuring the Blueprint</li>
+                            <li>Bringing Design to Life</li>
+                          </ol>
+
+                          <NavLink to='/what-we-do/Design-Concept-and-Mockups'>LEARN MORE</NavLink>
                         </div>
                       </div>
                     </div>
                   </Col>
-                  <Col lg={4} md={6}>
+                  <Col lg={4} sm={6}>
                     <div className='service-border-div'>
                       <div className='service-div'>
                         <div className='icon-div'>
@@ -111,15 +121,20 @@ function Home() {
                         <div className='heading'>
                           <h4>Custom Design and Development</h4>
                         </div>
-                        <div className='text-div text-center'>
-                          <p>
-                            Once the design concept is approved, the web design team will proceed with the actual design and development of the website. This involves converting the design into HTML/CSS or using a CMS like WordPress to create the website's structure, pages, and navigation.
-                          </p>
+                        <div className='text-div'>
+                          <ol>
+                            <li>Front-End Development</li>
+                            <li>Responsive Design</li>
+                            <li>Content Integration and Interactive Functionality</li>
+                            <li>Testing, Optimization, and Deployment</li>
+                          </ol>
+
+                          <NavLink to='/what-we-do/Custom-Design-and-Development'>LEARN MORE</NavLink>
                         </div>
                       </div>
                     </div>
                   </Col>
-                  <Col lg={4} md={6}>
+                  <Col lg={4} sm={6}>
                     <div className='service-border-div'>
                       <div className='service-div'>
                         <div className='icon-div'>
@@ -128,15 +143,20 @@ function Home() {
                         <div className='heading'>
                           <h4>Content Integration</h4>
                         </div>
-                        <div className='text-div text-center'>
-                          <p>
-                            The web design business will help you integrate your content, such as text, images, videos, and other media, into the website. They will ensure that the content is properly formatted, optimized, and aligned with the design.
-                          </p>
+                        <div className='text-div'>
+                          <ol>
+                            <li>Code Craftsmanship</li>
+                            <li>Adapting to All Screens</li>
+                            <li>Seamless Integration and Engaging Interactions</li>
+                            <li>Testing, Optimizing, and Launching</li>
+                          </ol>
+
+                          <NavLink to='/what-we-do/Content-Integration'>LEARN MORE</NavLink>
                         </div>
                       </div>
                     </div>
                   </Col>
-                  <Col lg={4} md={6}>
+                  <Col lg={4} sm={6}>
                     <div className='service-border-div'>
                       <div className='service-div'>
                         <div className='icon-div'>
@@ -145,15 +165,20 @@ function Home() {
                         <div className='heading'>
                           <h4>Responsive Design</h4>
                         </div>
-                        <div className='text-div text-center'>
-                          <p>
-                            A professional web design business will ensure that your website is responsive, meaning it adapts to different screen sizes and devices, providing an optimal user experience on desktops, laptops, tablets, and smartphones.
-                          </p>
+                        <div className='text-div'>
+                          <ol>
+                            <li>Dynamic Grids</li>
+                            <li>Customized Styles</li>
+                            <li>Adapting Visuals</li>
+                            <li>User-Friendly Experience</li>
+                          </ol>
+
+                          <NavLink to='/what-we-do/Responsive-Design'>LEARN MORE</NavLink>
                         </div>
                       </div>
                     </div>
                   </Col>
-                  <Col lg={4} md={6}>
+                  <Col lg={4} sm={6}>
                     <div className='service-border-div'>
                       <div className='service-div'>
                         <div className='icon-div'>
@@ -162,15 +187,20 @@ function Home() {
                         <div className='heading'>
                           <h4>Functionality and Features</h4>
                         </div>
-                        <div className='text-div text-center'>
-                          <p>
-                            Depending on your requirements, the web design business can incorporate various functionality and features into your website, such as contact forms, social media integration, e-commerce capabilities, content management systems, blog sections, and more.
-                          </p>
+                        <div className='text-div'>
+                          <ol>
+                            <li>Feature Identification</li>
+                            <li>Planning, Design, and Integration</li>
+                            <li>Custom Development</li>
+                            <li>Testing, UX Considerations, Documentation, and Support</li>
+                          </ol>
+
+                          <NavLink to='/what-we-do/Functionality-and-Features'>LEARN MORE</NavLink>
                         </div>
                       </div>
                     </div>
                   </Col>
-                  <Col lg={4} md={6}>
+                  <Col lg={4} sm={6}>
                     <div className='service-border-div'>
                       <div className='service-div'>
                         <div className='icon-div'>
@@ -179,15 +209,20 @@ function Home() {
                         <div className='heading'>
                           <h4>Testing and Quality Assurance</h4>
                         </div>
-                        <div className='text-div text-center'>
-                          <p>
-                            The web design team will conduct thorough testing to ensure that the website functions properly across different browsers, devices, and screen resolutions. They will check for any bugs, broken links, or compatibility issues and make necessary adjustments.
-                          </p>
+                        <div className='text-div'>
+                          <ol>
+                            <li>Unveiling the Possibilities</li>
+                            <li>Strategic Planning and Seamless Integration</li>
+                            <li>Tailored Solutions</li>
+                            <li>Ensuring Excellence</li>
+                          </ol>
+
+                          <NavLink to='/what-we-do/Testing-and-Quality-Assurance'>LEARN MORE</NavLink>
                         </div>
                       </div>
                     </div>
                   </Col>
-                  <Col lg={4} md={6}>
+                  <Col lg={4} sm={6}>
                     <div className='service-border-div'>
                       <div className='service-div'>
                         <div className='icon-div'>
@@ -196,15 +231,20 @@ function Home() {
                         <div className='heading'>
                           <h4>Deployment and Launch</h4>
                         </div>
-                        <div className='text-div text-center'>
-                          <p>
-                            Once the website is fully developed and tested, the web design business will assist with the deployment process, helping you choose a hosting provider and configuring the website to go live. They will ensure that all necessary technical requirements are met for a successful launch.
-                          </p>
+                        <div className='text-div'>
+                          <ol>
+                            <li>Setting the Stage</li>
+                            <li>Secure Transfers and Dynamic Foundations</li>
+                            <li>Domain Alignment and Final Checks</li>
+                            <li>Speed and Efficiency</li>
+                          </ol>
+
+                          <NavLink to='/what-we-do/Deployment-and-Launch'>LEARN MORE</NavLink>
                         </div>
                       </div>
                     </div>
                   </Col>
-                  <Col lg={4} md={6}>
+                  <Col lg={4} sm={6}>
                     <div className='service-border-div'>
                       <div className='service-div'>
                         <div className='icon-div'>
@@ -213,10 +253,15 @@ function Home() {
                         <div className='heading'>
                           <h4>Ongoing Support and Maintenance</h4>
                         </div>
-                        <div className='text-div text-center'>
-                          <p>
-                            Some web design businesses offer ongoing support and maintenance services, providing assistance with updates, security, backups, and resolving any issues that may arise after the website is launched.
-                          </p>
+                        <div className='text-div'>
+                          <ol>
+                            <li>Reliable Support and Issue Resolution</li>
+                            <li>Safeguarding Stability</li>
+                            <li>Driving Efficiency</li>
+                            <li>Content Care and Expert Guidance</li>
+                          </ol>
+
+                          <NavLink to='/what-we-do/Ongoing-Support-and-Maintenance'>LEARN MORE</NavLink>
                         </div>
                       </div>
                     </div>

@@ -69,14 +69,14 @@ function OurBlogInnerPage() {
                                 <div className='heading'>
                                     <h5>Always allow users to see their initial text in the search bar. When the customers cannot find the desired items, it is crucial they try again.</h5>
                                 </div>
-                                <img src={section2Image} alt='Online edtech industry' />
+                                <img src={section2Image} alt='Basic Principles' />
                             </div>
                         </Col>
                     </Row>
                 </Container>
             </section>
 
-            <section className='section1 first'>
+            <section className='section1'>
                 <Container>
                     <Row>
                         <Col md={12}>
@@ -124,7 +124,7 @@ function OurBlogInnerPage() {
                 </Container>
             </section>
 
-            <section className='section1'>
+            <section className='section1 first'>
                 <Container>
                     <Row>
                         <Col md={12}>
@@ -174,7 +174,7 @@ function OurBlogInnerPage() {
                                 </p>
                             </div>
                             <div className='img-div'>
-                                <img src={section8Image} alt='Archetypical personas' />
+                                <img src={section8Image} alt='Blended Results' />
                                 <div className='heading two'>
                                     <h5>Blended results help expand and facilitate search as much as possible</h5>
                                 </div>
@@ -222,7 +222,7 @@ function OurBlogInnerPage() {
                         <Col md={12}>
                             <div className='popular-blog-boxes'>
                                 <Row>
-                                    <Col md={4}>
+                                    <Col lg={4} md={6} className='first'>
                                         <NavLink to={`/our-blog/our-blog-inner-page`}>
                                             <div className='blog-single'>
                                                 <div className='img-div'>
@@ -234,7 +234,7 @@ function OurBlogInnerPage() {
                                             </div>
                                         </NavLink>
                                     </Col>
-                                    <Col md={4}>
+                                    <Col lg={4} md={6}>
                                         <NavLink to={`/our-blog/our-blog-inner-page`}>
                                             <div className='blog-single'>
                                                 <div className='img-div'>
@@ -246,7 +246,7 @@ function OurBlogInnerPage() {
                                             </div>
                                         </NavLink>
                                     </Col>
-                                    <Col md={4}>
+                                    <Col lg={4} md={6}>
                                         <NavLink to={`/our-blog/our-blog-inner-page`}>
                                             <div className='blog-single'>
                                                 <div className='img-div'>

@@ -81,7 +81,7 @@ footer .btn-div button {
     background-color: #fff;
 }
 
-footer .social-icons ul{
+footer .social-icons ul {
     margin: 0;
 }
 
@@ -90,7 +90,7 @@ footer .social-icons ul li {
     margin-right: 12px;
 }
 
-.footer-bottom{
+.footer-bottom {
     height: 60px;
     background: #000000;
     display: flex;
@@ -98,7 +98,8 @@ footer .social-icons ul li {
     justify-content: center;
 }
 
-.footer-bottom .text-div p{
+.footer-bottom .text-div p {
     text-align: center;
     color: #D4D4D4;
 }
+

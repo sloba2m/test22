@@ -61,11 +61,11 @@
 }
 
 .whatWeDoPage .section1 {
-    padding: 50px 0;
-    padding-bottom: 110px;
+    /* padding: 50px 0;
+    padding-bottom: 0; */
 }
 
-.whatWeDoPage .section1.maintenance{
+.whatWeDoPage .section1.maintenance {
     padding-bottom: 0;
 }
 
@@ -100,10 +100,6 @@
     margin-top: 60px;
 }
 
-.whatWeDoPage .section1 .service-main h4 {
-    text-align: center;
-}
-
 .whatWeDoPage .section1 .bg-div {
     margin-top: 50px;
     height: 500px;
@@ -119,23 +115,23 @@
     background-size: 105% 105%;
 }
 
-.whatWeDoPage .section1.clientProfiling .bg-div{
+.whatWeDoPage .section1.clientProfiling .bg-div {
     background-image: url(../../assets/images/whatWeDo/clientProfiling.png);
 }
 
-.whatWeDoPage .section1.design .bg-div{
+.whatWeDoPage .section1.design .bg-div {
     background-image: url(../../assets/images/whatWeDo/Design.png);
 }
 
-.whatWeDoPage .section1.develop .bg-div{
+.whatWeDoPage .section1.develop .bg-div {
     background-image: url(../../assets/images/whatWeDo/Working-on-code.png);
 }
 
-.whatWeDoPage .section1.optimize .bg-div{
+.whatWeDoPage .section1.optimize .bg-div {
     background-image: url(../../assets/images/whatWeDo/Female-web-designer.png);
 }
 
-.whatWeDoPage .section1.maintenance .bg-div{
+.whatWeDoPage .section1.maintenance .bg-div {
     background-image: url(../../assets/images/whatWeDo/Construction-concept.png);
 }
 
@@ -145,3 +141,8 @@
     font-size: 30px;
     line-height: 36px;
 }
+
+.whatWeDoPage .footer-top-main{
+    padding-top: 130px;
+}
+
