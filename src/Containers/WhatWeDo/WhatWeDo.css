@@ -1,148 +1,147 @@
 .whatWeDoPage .hero-what-we-do {
-    padding: 105px 0;
+  padding: 105px 0;
 }
 
 .whatWeDoPage .hero-what-we-do h1 {
-    margin: auto;
-    width: 880px;
+  margin: auto;
+  width: 880px;
 }
 
 .whatWeDoPage .hero-what-we-do h1::before {
-    top: -20px;
-    right: -100px;
+  top: -20px;
+  right: -100px;
 }
 
 .whatWeDoPage .hero-what-we-do h1::after {
-    bottom: -150px;
-    left: -105px;
+  bottom: -150px;
+  left: -105px;
 }
 
 .whatWeDoPage .hero-what-we-do .text-div {
-    margin-bottom: 24px;
-    margin-top: 11px;
+  margin-bottom: 24px;
+  margin-top: 11px;
 }
 
 .whatWeDoPage .hero-what-we-do .text-div p {
-    width: 879px;
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 170%;
-    text-align: center;
-    color: #737373;
-    margin: auto;
+  width: 879px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 170%;
+  text-align: center;
+  color: #737373;
+  margin: auto;
 }
 
 .whatWeDoPage .hero-what-we-do .btn-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 16px;
 }
 
 .whatWeDoPage .hero-what-we-do .btn-div button {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 20px 40px;
-    gap: 10px;
-    width: 233px;
-    height: 64px;
-    border-radius: 50px;
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
-    color: #262626;
-    background: #fff;
-    border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px 40px;
+  gap: 10px;
+  width: 233px;
+  height: 64px;
+  border-radius: 50px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #262626;
+  background: #fff;
+  border: none;
 }
 
 .whatWeDoPage .section1 {
-    /* padding: 50px 0;
+  /* padding: 50px 0;
     padding-bottom: 0; */
 }
 
 .whatWeDoPage .section1.maintenance {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 .whatWeDoPage .section1 .heading h4 span {
-    background: linear-gradient(270deg, #FB7EFF 0%, #1717FF 46.88%, #00E7FF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    width: max-content;
-    margin-bottom: 11px;
-    display: inline-block;
+  background: linear-gradient(270deg, #fb7eff 0%, #1717ff 46.88%, #00e7ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  width: max-content;
+  margin-bottom: 11px;
+  display: inline-block;
 }
 
 .whatWeDoPage .section1 .text-div {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .whatWeDoPage .section1 .text-div.head p {
-    width: 458px;
-    height: 84px;
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    color: #000000;
-    margin-left: auto;
+  width: 458px;
+  height: 84px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+  margin-left: auto;
 }
 
 .whatWeDoPage .section1 .service-main {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .whatWeDoPage .section1 .bg-div {
-    margin-top: 50px;
-    height: 500px;
-    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.03);
-    border-radius: 24px;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    transition: 0.7s;
-    background-position: center;
+  margin-top: 50px;
+  height: 500px;
+  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.03);
+  border-radius: 24px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition: 0.7s;
+  background-position: center;
 }
 
 .whatWeDoPage .section1 .bg-div:hover {
-    background-size: 105% 105%;
+  background-size: 105% 105%;
 }
 
 .whatWeDoPage .section1.clientProfiling .bg-div {
-    background-image: url(../../assets/images/whatWeDo/clientProfiling.png);
+  background-image: url(../../assets/images/whatWeDo/clientProfiling.png);
 }
 
 .whatWeDoPage .section1.design .bg-div {
-    background-image: url(../../assets/images/whatWeDo/Design.png);
+  background-image: url(../../assets/images/whatWeDo/Design.png);
 }
 
 .whatWeDoPage .section1.develop .bg-div {
-    background-image: url(../../assets/images/whatWeDo/Working-on-code.png);
+  background-image: url(../../assets/images/whatWeDo/Working-on-code.png);
 }
 
 .whatWeDoPage .section1.optimize .bg-div {
-    background-image: url(../../assets/images/whatWeDo/Female-web-designer.png);
+  background-image: url(../../assets/images/whatWeDo/Female-web-designer.png);
 }
 
 .whatWeDoPage .section1.maintenance .bg-div {
-    background-image: url(../../assets/images/whatWeDo/Construction-concept.png);
+  background-image: url(../../assets/images/whatWeDo/Construction-concept.png);
 }
 
 .whatWeDoPage .footer-top-main .footer-top-text .btn-gradient-border button {
-    width: 216px;
-    height: 76px;
-    font-size: 30px;
-    line-height: 36px;
+  width: 216px;
+  height: 76px;
+  font-size: 30px;
+  line-height: 36px;
 }
 
-.whatWeDoPage .footer-top-main{
-    padding-top: 130px;
+.whatWeDoPage .footer-top-main {
+  padding-top: 130px;
 }
-

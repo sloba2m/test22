@@ -330,8 +330,8 @@ function WhatWeDoInner() {
                                 <>
                                     <section className='section2'>
                                         <Container>
-                                            <Row className='align-items-center'>
-                                                <Col md={6}>
+                                            <Row className='align-items-center reverse'>
+                                                <Col sm={6}>
                                                     <div className='heading'>
                                                         <h4>{a.name}</h4>
                                                     </div>
@@ -341,7 +341,7 @@ function WhatWeDoInner() {
                                                         </p>
                                                     </div>
                                                 </Col>
-                                                <Col md={6}>
+                                                <Col sm={6}>
                                                     <div className='img-div right'>
                                                         <img src={a.icon} />
                                                     </div>
@@ -357,12 +357,12 @@ function WhatWeDoInner() {
                                     <section className='section2'>
                                         <Container>
                                             <Row className='align-items-center'>
-                                                <Col md={6}>
+                                                <Col sm={6}>
                                                     <div className='img-div right'>
                                                         <img src={a.icon} />
                                                     </div>
                                                 </Col>
-                                                <Col md={6}>
+                                                <Col sm={6}>
                                                     <div className='heading'>
                                                         <h4>{a.name}</h4>
                                                     </div>

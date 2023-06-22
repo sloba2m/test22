@@ -402,7 +402,7 @@ li {
 
 
     .service-div {
-        height: 387px;
+        height: auto;
     }
 
     .service-border-div {
@@ -547,7 +547,9 @@ li {
         /* margin-bottom: 20px;
         margin-top: 32px; */
     }
-
+    .service-div .text-div{
+        width: 100%;
+    }
     .service-div .text-div p {
         height: 96px;
     }

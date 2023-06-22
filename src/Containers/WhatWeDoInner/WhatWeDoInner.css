@@ -1,57 +1,61 @@
 .whatWeDoInnerPage hr {
-    margin: 70px 0;
+  margin: 70px 0;
 }
 
 .whatWeDoInnerPage .section1 {
-    padding: 80px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 86px;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 86px;
 }
 
 .whatWeDoInnerPage .section1 .img-div {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
-.whatWeDoInnerPage .section2 .text-div{
-    margin-top: 30px;
+.whatWeDoInnerPage .section2 .text-div {
+  margin-top: 30px;
 }
 
 .whatWeDoInnerPage .section2 .text-div.text-center {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 .whatWeDoInnerPage .section2 .text-div p {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 170%;
-    color: #171717;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 170%;
+  color: #171717;
 }
 
 .whatWeDoInnerPage .section2 .img-div.right {
-    text-align: center;
+  text-align: center;
 }
 
-.whatWeDoInnerPage .recent-work{
-    padding-top: 160px;
+.whatWeDoInnerPage .recent-work {
+  padding-top: 160px;
 }
 
-.whatWeDoInnerPage .recent-work .recent-work-boxes{
-    margin-top: 80px;
+.whatWeDoInnerPage .recent-work .recent-work-boxes {
+  margin-top: 80px;
 }
 
-.whatWeDoInnerPage .recent-work a{
-    text-decoration: none;
+.whatWeDoInnerPage .recent-work a {
+  text-decoration: none;
 }
 
 .whatWeDoInnerPage .footer-top-main {
-    padding-top: 120px;
+  padding-top: 120px;
 }
 
-/* .whatWeDoInnerPage .footer-top-main .footer-top-text .btn-gradient-border button {
-    width: 216px;
-    height: 76px;
-    font-size: 30px;
-    line-height: 36px;
-} */
+.whatWeDoInnerPage
+  .footer-top-main
+  .footer-top-text
+  .btn-gradient-border
+  button {
+  width: 216px;
+  height: 76px;
+  font-size: 30px;
+  line-height: 36px;
+}
