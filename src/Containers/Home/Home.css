@@ -1,204 +1,456 @@
-a {
-  text-decoration: none !important;
+a{
+    text-decoration: none !important;
 }
 
 .homepage .hero-home {
-  padding: 120px 0;
+    padding: 120px 0;
 }
 
 .homepage .hero-home h1 {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .homepage .hero-home .btn-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
 }
 
 .homepage .hero-home .btn-div button {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 20px 40px;
-  gap: 10px;
-  width: 186px;
-  height: 60px;
-  border-radius: 50px;
-  font-family: "Plus Jakarta Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 20px;
-  color: #262626;
-  background: #fff;
-  border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 40px;
+    gap: 10px;
+    width: 186px;
+    height: 60px;
+    border-radius: 50px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #262626;
+    background: #fff;
+    border: none;
 }
 
 .homepage .home-sec-1 {
-  padding: 37px 0;
+    padding: 37px 0;
 }
 
 .homepage .home-sec-1 .service-main {
-  margin-top: 60px;
+    margin-top: 60px;
 }
 
 .homepage .home-sec-2 {
-  padding: 90px 0;
+    padding: 90px 0;
 }
 
 .homepage .home-sec-2 .text-div {
-  margin-top: 16px;
+    margin-top: 16px;
 }
 
 .homepage .home-sec-2 .text-div p {
-  font-family: "Plus Jakarta Sans";
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0;
-  font-size: 18px;
-  line-height: 28px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 .homepage .home-sec-2 .btn-div {
-  margin-top: 32px;
+    margin-top: 32px;
 }
 
 .homepage .home-sec-2 .btn-div .btn-gradient-border {
-  width: max-content;
+    width: max-content;
 }
 
 .homepage .home-sec-2 .btn-div .btn-gradient-border button {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 20px;
-  width: 195px;
-  height: 60px;
-  border: none;
-  background: #fff;
-  border-radius: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    width: 195px;
+    height: 60px;
+    border: none;
+    background: #fff;
+    border-radius: 50px;
 }
 
 .homepage .home-sec-2 .image-div {
-  text-align: right;
+    text-align: right;
 }
 
 .homepage .home-sec-3 {
-  position: relative;
-  padding: 70px 0;
-  padding-bottom: 50px;
+    position: relative;
+    padding: 70px 0;
+    padding-bottom: 50px;
 }
 
 .homepage .home-sec-3 .abs-bg {
-  position: absolute;
-  width: 100%;
-  height: 412px;
-  background: #fafafa;
-  bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 412px;
+    background: #FAFAFA;
+    bottom: 0;
 }
 
 .homepage .home-sec-3 .reviewMain {
-  display: flex;
-  align-items: center;
-  overflow: hidden;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }
 
 .homepage .home-sec-3 .reviewMain .img-div {
-  min-width: 289px;
+    min-width: 289px;
 }
 
 .homepage .home-sec-3 .reviewMain .img-div img {
-  margin-bottom: 24px;
-  background: #ffffff;
-  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.03);
-  border-radius: 16px;
+    margin-bottom: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.03);
+    border-radius: 16px;
 }
 
 .homepage .home-sec-3 .reviewMain .img-div p {
-  font-family: "Plus Jakarta Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 170%;
-  color: #404040;
-  margin-top: 5px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    color: #404040;
+    margin-top: 5px;
 }
 
 .homepage .home-sec-3 .reviewMain .text-div {
-  margin-left: 77px;
-  width: 716px;
-  margin-top: 40px;
-  position: relative;
+    margin-left: 77px;
+    width: 716px;
+    margin-top: 40px;
+    position: relative;
 }
 
 .homepage .home-sec-3 .reviewMain .text-div::after {
-  content: "";
-  background-image: url(../../assets/images/home/review-quotation.png);
-  width: 164px;
-  height: 148px;
-  position: absolute;
-  background-size: cover;
-  background-repeat: no-repeat;
-  bottom: -62px;
-  right: 53px;
+    content: "";
+    background-image: url(../../assets/images/home/review-quotation.png);
+    width: 164px;
+    height: 148px;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: -62px;
+    right: 53px;
 }
 
 .homepage .home-sec-3 .reviewMain .text-div p {
-  font-family: "Plus Jakarta Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 170%;
-  color: #262626;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    color: #262626;
 }
 
 .homepage .home-sec-3 .slick-next {
-  position: absolute;
-  top: 405px;
-  left: 460px;
-  z-index: 99;
+    position: absolute;
+    top: 405px;
+    left: 460px;
+    z-index: 99;
 }
 
 .homepage .home-sec-3 .slick-prev {
-  position: absolute;
-  top: 404px;
-  left: 385px;
-  z-index: 99;
+    position: absolute;
+    top: 404px;
+    left: 385px;
+    z-index: 99;
 }
 
 .homepage .home-sec-3 .slick-prev::before {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: calc(100% - 3px);
-  height: calc(100% - 3px);
-  background-color: #fff;
-  opacity: 1;
-  border-radius: 50px;
-  transform: translate(-50%, -50%);
-  content: "";
-  background: url(../../assets/images/home/arrow-left.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 60px;
-  height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(100% - 3px);
+    height: calc(100% - 3px);
+    background-color: #fff;
+    opacity: 1;
+    border-radius: 50px;
+    transform: translate(-50%, -50%);
+    content: "";
+    background: url(../../assets/images/home/arrow-left.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60px;
+    height: 60px;
 }
 
 .homepage .home-sec-3 .slick-next::before {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: calc(100% - 3px);
-  height: calc(100% - 3px);
-  background-color: #fff;
-  opacity: 1;
-  border-radius: 50px;
-  transform: translate(-50%, -50%);
-  content: "";
-  background: url(../../assets/images/home/arrow-right.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 60px;
-  height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(100% - 3px);
+    height: calc(100% - 3px);
+    background-color: #fff;
+    opacity: 1;
+    border-radius: 50px;
+    transform: translate(-50%, -50%);
+    content: "";
+    background: url(../../assets/images/home/arrow-right.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .homepage .hero-home {
+        padding: 55px 0;
+        padding-top: 30px;
+    }
+
+    .homepage .hero-home h1 {
+        margin-bottom: 40px;
+    }
+
+    .homepage .home-sec-1 {
+        padding-top: 5px;
+    }
+
+    .homepage .home-sec-2 {
+        padding: 60px 0;
+    }
+
+    .homepage .home-sec-2 .heading h1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .homepage .home-sec-2 .text-div p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .homepage .home-sec-2 .btn-div {
+        margin-top: 35px;
+    }
+
+    .homepage .home-sec-2 .image-div img {
+        width: 100%;
+    }
+
+    .homepage .home-sec-3 {
+        padding: 40px 0;
+        padding-bottom: 50px;
+    }
+
+    .homepage .home-sec-3 .abs-bg {
+        height: 330px;
+    }
+
+    .homepage .home-sec-3 .slick-next {
+        top: 315px;
+        left: 395px;
+    }
+
+    .homepage .home-sec-3 .slick-prev {
+        top: 315px;
+        left: 325px;
+    }
+
+    .homepage .home-sec-3 .reviewMain .img-div {
+        min-width: 232px;
+        margin-left: 50px;
+    }
+
+    .homepage .home-sec-3 .reviewMain .img-div img {
+        width: 185px;
+        margin-bottom: 10px;
+    }
+
+    .homepage .home-sec-3 .reviewMain .text-div p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .homepage .home-sec-3 .reviewMain .img-div p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .homepage .home-sec-3 .reviewMain .text-div::after {
+        width: 86px;
+        height: 78px;
+        bottom: 0;
+    }
+
+    .homepage .home-sec-3 .reviewMain .text-div {
+        margin: 0;
+    }
+
+    .homepage .footer-top-main .footer-top-text .btn-gradient-border button {
+        width: 171px;
+        height: 60px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 575px) {
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .homepage .hero-home {
+        padding: 20px 0;
+    }
+
+    .homepage .hero-home h1 {
+        margin-bottom: 40px;
+    }
+
+    .homepage .hero-home .btn-div button {
+        width: 160px;
+        height: 50px;
+        padding: 16px 32px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .homepage .home-sec-1 {
+        padding: 40px 0;
+    }
+
+    .homepage .home-sec-1 .service-main {
+        margin-top: 30px;
+    }
+
+    .homepage .home-sec-2 {
+        padding: 0px 0;
+    }
+
+    .homepage .home-sec-2 .heading h1 {
+        text-align: center;
+        margin-top: 8px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        width: 90%;
+    }
+
+    .homepage .home-sec-2 .text-div {
+        margin-top: 20px;
+    }
+
+    .homepage .home-sec-2 .text-div p {
+        text-align: center;
+        width: 99%;
+        margin: auto;
+    }
+
+    .homepage .home-sec-2 .btn-div {
+        margin: 40px 0;
+    }
+
+    .homepage .home-sec-2 .btn-div .btn-gradient-border {
+        margin: auto;
+    }
+
+    .homepage .home-sec-2 .btn-div .btn-gradient-border button {
+        width: auto;
+        height: 50px;
+        padding: 16px 32px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .homepage .home-sec-2 .image-div img {
+        width: 100%;
+    }
+
+    .homepage .home-sec-3 {
+        padding: 24px 16px;
+        margin-top: 60px;
+        padding-bottom: 108px;
+        position: relative;
+    }
+
+    .homepage .home-sec-3 .reviewMain {
+        flex-direction: column-reverse;
+    }
+
+    .homepage .home-sec-3 .reviewMain .text-div {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 26px;
+    }
+
+    .homepage .home-sec-3 .reviewMain .text-div::after {
+        width: 78px;
+        height: 72px;
+        top: 132px;
+        right: 37px;
+    }
+
+    .homepage .home-sec-3 .reviewMain .text-div p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .homepage .home-sec-3 .reviewMain .img-div {
+        min-width: 100%;
+    }
+
+    .homepage .home-sec-3 .reviewMain .img-div img {
+        margin: auto;
+    }
+
+    .homepage .home-sec-3 .reviewMain .img-div .heading {
+        margin-top: 14px;
+    }
+
+    .homepage .home-sec-3 .reviewMain .img-div .heading h4 {
+        text-align: left;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .homepage .home-sec-3 .slick-prev {
+        bottom: -60px;
+        top: initial;
+        left: calc(50% - 35px);
+        transform: translate(-50%, 0);
+    }
+
+    .homepage .home-sec-3 .slick-next {
+        bottom: -60px;
+        top: initial;
+        left: calc(50% + 35px);
+        transform: translate(-50%, 0);
+    }
+
+    .homepage .home-sec-3 .abs-bg {
+        height: 100%;
+        border-radius: 24px;
+        width: calc(100% - 32px);
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .homepage .hero-home .btn-div button{
+        width: auto;
+        font-size: 16px;
+    }
 }
