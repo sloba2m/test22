@@ -1,90 +1,91 @@
 .contact .hero-home {
-    padding: 110px 0;
-    padding-bottom: 93px;
+  padding: 110px 0;
+  padding-bottom: 93px;
 }
 
 .contact .hero-home h1 {
-    margin-bottom: 60px;
-    text-align: left;
-    margin: 0;
+  margin-bottom: 60px;
+  text-align: left;
+  margin: 0;
 }
 
 .contact .hero-home h1::before,
 .contact .hero-home h1::after {
-    display: none;
+  display: none;
 }
 
 .contact .hero-home .img-div {
-    text-align: right;
-    padding-right: 50px;
+  text-align: right;
+  padding-right: 50px;
 }
 
-.contact .section1 {}
+.contact .section1 {
+}
 
 .contact .section1 form .input-div {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
 }
 
 .contact .section1 form .input-div label {
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    color: #262626;
-    margin-bottom: 8px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+  margin-bottom: 8px;
 }
 
 .contact .section1 form .input-div input {
-    height: 48px;
-    background: #FAFAFA;
-    border-radius: 4px;
-    border: none;
-    outline: none;
-    padding: 12px 20px;
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #262626;
-    border-bottom: 0.5px solid transparent;
-    transition: 0.7s;
+  height: 48px;
+  background: #fafafa;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+  border-bottom: 0.5px solid transparent;
+  transition: 0.7s;
 }
 
 .contact .section1 form .input-div input:hover {
-    border-bottom: 0.5px solid #737373;
+  border-bottom: 0.5px solid #737373;
 }
 
 .contact .section1 form .input-div select {
-    height: 48px;
-    background: #FAFAFA;
-    border-radius: 4px;
-    border: none;
-    outline: none;
-    padding: 12px 20px;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
-    position: relative;
-    background-image: url(../../assets/images/contact/arrow-down.png);
-    background-repeat: no-repeat;
-    background-position-x: calc(100% - 12px);
-    background-position-y: 12px;
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #262626;
-    border-bottom: 0.5px solid transparent;
-    transition: 0.7s;
+  height: 48px;
+  background: #fafafa;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  position: relative;
+  background-image: url(../../assets/images/contact/arrow-down.png);
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 12px);
+  background-position-y: 12px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+  border-bottom: 0.5px solid transparent;
+  transition: 0.7s;
 }
 
 .contact .section1 form .input-div select:hover {
-    border-bottom: 0.5px solid #737373;
+  border-bottom: 0.5px solid #737373;
 }
 
 /* .contact .section1 form .input-div select::after {
@@ -98,201 +99,110 @@
 } */
 
 .contact .section1 form .input-div textarea {
-    height: 153px;
-    background: #FAFAFA;
-    border-radius: 4px;
-    border: none;
-    outline: none;
-    padding: 12px 20px;
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #262626;
-    border-bottom: 0.5px solid transparent;
-    transition: 0.7s;
+  height: 153px;
+  background: #fafafa;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+  border-bottom: 0.5px solid transparent;
+  transition: 0.7s;
 }
 
 .contact .section1 form .input-div textarea:hover {
-    border-bottom: 0.5px solid #737373;
+  border-bottom: 0.5px solid #737373;
 }
 
-.contact .section1 .btn-div {}
+.contact .section1 .btn-div {
+}
 
 .contact .section1 .btn-div .btn-gradient-border {
-    width: max-content;
+  width: max-content;
 }
 
 .contact .section1 .btn-div .btn-gradient-border button {
-    padding: 20px 40px;
-    gap: 10px;
-    width: 131px;
-    height: 60px;
-    border-radius: 50px;
-    border: none;
-    background: #fff;
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
-    color: #262626;
+  padding: 20px 40px;
+  gap: 10px;
+  width: 131px;
+  height: 60px;
+  border-radius: 50px;
+  border: none;
+  background: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #262626;
 }
 
 .contact .section2 {
-    padding: 160px 0;
-    padding-bottom: 50px;
+  padding: 160px 0;
+  padding-bottom: 50px;
 }
 
 .contact .section2 .heading h2 {
-    background: linear-gradient(270deg, #FB7EFF 0%, #1717FF 46.88%, #00E7FF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    width: max-content;
+  background: linear-gradient(270deg, #fb7eff 0%, #1717ff 46.88%, #00e7ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  width: max-content;
 }
 
 .contact .section2 .accordion-button:not(.collapsed) {
-    border: none;
-    box-shadow: none;
+  border: none;
+  box-shadow: none;
 }
 
 .contact .section2 .accord-main {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 .contact .section2 .accordion-item {
-    border: none;
-    margin-bottom: 24px;
-    border-radius: 4px;
+  border: none;
+  margin-bottom: 24px;
+  border-radius: 4px;
 }
 
 .contact .section2 .accordion-button {
-    height: 60px;
-    background: #FAFAFA;
-    border-radius: 4px;
-    border: none;
-    outline: none !important;
-    box-shadow: none !important;
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 18px;
-    color: #000000;
+  height: 60px;
+  background: #fafafa;
+  border-radius: 4px;
+  border: none;
+  outline: none !important;
+  box-shadow: none !important;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
 }
 
 .contact .section2 .accordion-body {
-    background: #FAFAFA;
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 170%;
-    color: rgba(60, 60, 67, 0.85);
-    border-bottom: 0.5px solid #737373;
-    border-radius: 4px;
-    padding-top: 0;
-    padding-right: 30px;
+  background: #fafafa;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 170%;
+  color: rgba(60, 60, 67, 0.85);
+  border-bottom: 0.5px solid #737373;
+  border-radius: 4px;
+  padding-top: 0;
+  padding-right: 30px;
 }
 
 .contact .section2 .accordion-button::after {
-    transform: rotate(270deg);
+  transform: rotate(270deg);
 }
 
 .accordion-button:not(.collapsed)::after {
-    transform: rotate(360deg) !important;
-}
-
-@media only screen and (max-width: 992px) and (min-width: 768px) {
-    .contact .hero-home {
-        padding: 0 10px;
-        padding-top: 35px;
-        padding-bottom: 120px;
-    }
-
-    .contact .hero-home .img-div {
-        margin-top: -20px;
-        padding-right: 60px;
-    }
-
-    .contact .section1,
-    .contact .section2 {
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-
-    .contact .section2 {
-        padding-top: 120px;
-    }
-
-    .contact .section2 .accord-main {
-        margin-top: 55px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .contact .hero-home {
-        padding: 20px 0;
-    }
-
-    .contact .hero-home h1 {
-        text-align: center;
-    }
-
-    .contact .hero-home h1 br {
-        display: none;
-    }
-
-    .contact .hero-home .img-div {
-        text-align: center;
-        padding: 0;
-        margin-top: 40px;
-    }
-
-    .contact .section1 {
-        padding: 40px 0;
-    }
-
-    .contact .section1 form .input-div {
-        margin-bottom: 24px;
-    }
-
-    .contact .section1 .btn-div {
-        margin-top: 6px;
-    }
-
-    .contact .section1 .btn-div .btn-gradient-border {
-        margin: auto;
-    }
-
-    .contact .section1 .btn-div .btn-gradient-border button {
-        width: 110px;
-        height: 50px;
-        padding: 16px 32px;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 18px;
-    }
-
-    .contact .section2 {
-        padding: 20px 0;
-    }
-
-    .contact .section2 .heading h2 {
-        width: 90%;
-        text-align: center;
-        margin: auto;
-    }
-
-    .contact .section2 .accord-main {
-        margin-top: 40px;
-    }
-
-    .contact .section2 .accordion-body {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-    }
+  transform: rotate(360deg) !important;
 }
