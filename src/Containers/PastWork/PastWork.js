@@ -42,17 +42,13 @@ function PastWork() {
                   </div>
                   <div className='text'>
                     <div className='heading'>
-<<<<<<< HEAD
                       <article>
                         <h4>THE VARIABLE</h4>
                       </article>
-=======
-                      <h4>Elysio Burgers</h4>
->>>>>>> d816b66379a3deb7b2e8deeb16289c0b822ccbd3
                     </div>
                     <div className='text-div'>
                       <p>
-                      Increase customer reach and facilitate online ordering
+                        The Variable — interactive design for those who fight indifference
                       </p>
                     </div>
                   </div>
@@ -67,17 +63,13 @@ function PastWork() {
                   </div>
                   <div className='text'>
                     <div className='heading'>
-<<<<<<< HEAD
                       <article>
                         <h4>SPACES</h4>
                       </article>
-=======
-                      <h4>Medical Symmetry</h4>
->>>>>>> d816b66379a3deb7b2e8deeb16289c0b822ccbd3
                     </div>
                     <div className='text-div'>
                       <p>
-                      Improve online presence by effectively presenting their range of services and incorporating an intuitive appointment booking system into their website.
+                        Embracing the future: modern design for Spaces Urbanistic Institute
                       </p>
                     </div>
                   </div>
@@ -92,17 +84,13 @@ function PastWork() {
                   </div>
                   <div className='text'>
                     <div className='heading'>
-<<<<<<< HEAD
                       <article>
                         <h4>BLING</h4>
                       </article>
-=======
-                      <h4>Fit and Delicious</h4>
->>>>>>> d816b66379a3deb7b2e8deeb16289c0b822ccbd3
                     </div>
                     <div className='text-div'>
                       <p>
-                      Create a visually appealing and easily updatable WordPress website
+                        Bling Jewelry Store — timeless beauty between vintage and novel
                       </p>
                     </div>
                   </div>
@@ -117,24 +105,20 @@ function PastWork() {
                   </div>
                   <div className='text'>
                     <div className='heading'>
-<<<<<<< HEAD
                       <article>
                         <h4>MIXMO</h4>
                       </article>
-=======
-                      <h4>Sphere</h4>
->>>>>>> d816b66379a3deb7b2e8deeb16289c0b822ccbd3
                     </div>
                     <div className='text-div'>
                       <p>
-                      Develop a dynamic and user-friendly interface for seamless blockchain interactions, taking usability in the blockchain industry to new heights.
+                        Mixmo: shaking up the music scene with a bold and colorful image
                       </p>
                     </div>
                   </div>
                 </div>
               </NavLink>
             </Col>
-            {/* <Col sm={6}>
+            <Col sm={6}>
               <NavLink to='/past-work/go-trade'>
                 <div className='past-work-box'>
                   <div className='img-div'>
@@ -175,7 +159,7 @@ function PastWork() {
                   </div>
                 </div>
               </NavLink>
-            </Col> */}
+            </Col>
           </Row>
         </Container>
       </section>

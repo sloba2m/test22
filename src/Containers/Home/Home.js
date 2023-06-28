@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Service1Icon from "../../assets/images/home/service1.svg";
@@ -13,22 +12,6 @@ import Service9Icon from "../../assets/images/home/service5.svg";
 import ServiceSeeAll from "../../assets/images/home/see-all-icon.png";
 import section3Img from "../../assets/images/home/section-3-img.svg";
 import reviewPerson from "../../assets/images/home/review-person.svg";
-=======
-import React, { useEffect } from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
-import Service1Icon from '../../assets/images/home/service1.png'
-import Service2Icon from '../../assets/images/home/service2.png'
-import Service3Icon from '../../assets/images/home/service3.png'
-import Service4Icon from '../../assets/images/home/service4.png'
-import Service5Icon from '../../assets/images/home/service5.png'
-import Service6Icon from '../../assets/images/home/service5.png'
-import Service7Icon from '../../assets/images/home/service5.png'
-import Service8Icon from '../../assets/images/home/service5.png'
-import Service9Icon from '../../assets/images/home/service5.png'
-import ServiceSeeAll from '../../assets/images/home/see-all-icon.png'
-import section3Img from '../../assets/images/home/section-3-img-2.png'
-import reviewPerson from '../../assets/images/home/review-person.png'
->>>>>>> d816b66379a3deb7b2e8deeb16289c0b822ccbd3
 
 import "./Home.css";
 import FooterTop from "../../Components/FooterTop/FooterTop";
@@ -78,7 +61,6 @@ function Home() {
                     <button>LET’S TALK</button>
                   </NavLink>
                 </div>
-<<<<<<< HEAD
                 <div className="btn-gradient-border">
                   <NavLink to="/what-we-do">
                     <button>ABOUT US</button>
@@ -109,11 +91,6 @@ function Home() {
                     <button>ABOUT US</button>
                   </NavLink>
                 </div>
-=======
-                {/* <div className='btn-gradient-border'>
-                  <button>ABOUT US</button>
-                </div> */}
->>>>>>> d816b66379a3deb7b2e8deeb16289c0b822ccbd3
               </div>
             </Col>
           </Row>
@@ -401,14 +378,10 @@ function Home() {
               </div>
               <div className="text-div">
                 <p>
-<<<<<<< HEAD
                   Pixel Infinity is a leading digital agency in San Antonio,
                   empowering businesses with our digital expertise. Our
                   dedicated team is fueled by a passion for excellence and a
                   commitment to delivering results.
-=======
-                Based in San Antonio, Pixel Infinity provides more than web design; we guide local businesses' digital transformations with unique, charm-infused solutions. Join us to amplify your online brand presence.
->>>>>>> d816b66379a3deb7b2e8deeb16289c0b822ccbd3
                 </p>
               </div>
               <div className="btn-div ">
@@ -446,7 +419,6 @@ function Home() {
                       </div>
                       <p>Founder of Fitandelicious.com</p>
                     </div>
-<<<<<<< HEAD
                     <div className="text-div">
                       <p>
                         Pixel Infinity is a leading digital agency in San
@@ -458,10 +430,6 @@ function Home() {
                         helping you succeed in the competitive digital
                         landscape.
                       </p>
-=======
-                    <div className='text-div'>
-                      <p>Working with Pixel Infinity was an absolute delight! They beautifully captured the essence of my food blog, Fit and Delicious, creating a captivating and user-friendly website. Their attention to detail, seamless integration of features, and reliable communication made the entire process a breeze. I highly recommend their services to anyone in need of an exceptional online presence. Thank you for bringing my vision to life!</p>
->>>>>>> d816b66379a3deb7b2e8deeb16289c0b822ccbd3
                     </div>
                   </div>
                 </div>
