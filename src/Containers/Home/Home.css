@@ -3,11 +3,13 @@ a{
 }
 
 .homepage .hero-home {
-    padding: 120px 0;
+    padding: 0px 0;
+    padding-bottom: 120px;
 }
 
 .homepage .hero-home h1 {
     margin-bottom: 60px;
+    padding-top: 120px;
 }
 
 .homepage .hero-home .btn-div {
@@ -205,12 +207,13 @@ a{
 
 @media only screen and (max-width: 992px) and (min-width: 768px) {
     .homepage .hero-home {
-        padding: 55px 0;
-        padding-top: 30px;
+        padding: 0;
+        padding-bottom: 55px;
     }
 
     .homepage .hero-home h1 {
         margin-bottom: 40px;
+        padding-top: 30px;
     }
 
     .homepage .home-sec-1 {
@@ -309,11 +312,13 @@ a{
 
 @media only screen and (max-width: 768px) {
     .homepage .hero-home {
-        padding: 20px 0;
+        padding: 0;
+        padding-bottom: 20px;
     }
 
     .homepage .hero-home h1 {
         margin-bottom: 40px;
+        padding-top: 20px;
     }
 
     .homepage .hero-home .btn-div button {

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { Col, Container, Row, Tab, Tabs } from 'react-bootstrap'
-import EmptyBlogImg from '../../assets/images/blogs/emptyBlogTab.png'
+import EmptyBlogImg from '../../assets/images/blogs/emptyBlogTab.svg'
 
-import latest1 from '../../assets/images/blogs/Choosing-icons.png'
-import latest2 from '../../assets/images/blogs/Uiandux.png'
+import latest1 from '../../assets/images/blogs/Choosing-icons.svg'
+import latest2 from '../../assets/images/blogs/Uiandux.svg'
 import latest3 from '../../assets/images/blogs/Information-technology.png'
 import latest4 from '../../assets/images/blogs/Improvement.png'
 import latest5 from '../../assets/images/blogs/Businesspeople.png'
@@ -35,22 +35,22 @@ function OurBlog() {
                     heading: "Search Results Page Design — UI/UX Best Practices",
                     img: latest2
                 },
-                {
-                    heading: "How to Run a Python script from Node.js",
-                    img: latest3
-                },
-                {
-                    heading: "10 CSS properties you should try to use",
-                    img: latest4
-                },
-                {
-                    heading: "Best Sitemap XML Optimization Practices for SEO and Google",
-                    img: latest5
-                },
-                {
-                    heading: "7 SEO Tips To Boost Your New Website's Rankings",
-                    img: latest6
-                },
+                // {
+                //     heading: "How to Run a Python script from Node.js",
+                //     img: latest3
+                // },
+                // {
+                //     heading: "10 CSS properties you should try to use",
+                //     img: latest4
+                // },
+                // {
+                //     heading: "Best Sitemap XML Optimization Practices for SEO and Google",
+                //     img: latest5
+                // },
+                // {
+                //     heading: "7 SEO Tips To Boost Your New Website's Rankings",
+                //     img: latest6
+                // },
             ]
         },
         {

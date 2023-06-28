@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom'
 
 function FooterTop() {
     return (
@@ -13,7 +14,9 @@ function FooterTop() {
                             </div>
                             <div className='btn-div'>
                                 <div className='btn-gradient-border'>
-                                    <button>Let’s Talk</button>
+                                    <NavLink to='/contact'>
+                                        <button>Let’s Talk</button>
+                                    </NavLink>
                                 </div>
                             </div>
                         </div>

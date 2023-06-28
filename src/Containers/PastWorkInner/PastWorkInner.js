@@ -1,19 +1,19 @@
 import React, { useEffect } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import section1Image from '../../assets/images/pastWorkInner/Laptop.png'
-import section2Image from '../../assets/images/pastWorkInner/heyTutor.png'
-import section3Image from '../../assets/images/pastWorkInner/clientsresults.png'
-import section6Image from '../../assets/images/pastWorkInner/competitiveAnalysis.png'
+import section1Image from '../../assets/images/pastWorkInner/Laptop.svg'
+import section2Image from '../../assets/images/pastWorkInner/heyTutor.svg'
+import section3Image from '../../assets/images/pastWorkInner/clientsresults.svg'
+import section6Image from '../../assets/images/pastWorkInner/competitiveAnalysis.svg'
 
-import section7Image1 from '../../assets/images/pastWorkInner/Archetypical-personas-1.png'
-import section7Image2 from '../../assets/images/pastWorkInner/Archetypical-personas-2.png'
+import section7Image1 from '../../assets/images/pastWorkInner/Archetypical-personas-1.svg'
+import section7Image2 from '../../assets/images/pastWorkInner/Archetypical-personas-2.svg'
 
-import section8Image from '../../assets/images/pastWorkInner/leading-digital.png'
+import section8Image from '../../assets/images/pastWorkInner/leading-digital.svg'
 
-import section10Image1 from '../../assets/images/pastWorkInner/cap-concept-1.png'
-import section10Image2 from '../../assets/images/pastWorkInner/cap-concept-2.png'
+import section10Image1 from '../../assets/images/pastWorkInner/cap-concept-1.svg'
+import section10Image2 from '../../assets/images/pastWorkInner/cap-concept-2.svg'
 
-import section11Image from '../../assets/images/pastWorkInner/web-designing.png'
+import section11Image from '../../assets/images/pastWorkInner/web-designing.svg'
 
 
 import PastWork3 from '../../assets/images/pastWork/past-work-3.png'
@@ -25,9 +25,9 @@ import FooterTop from '../../Components/FooterTop/FooterTop'
 
 function PastWorkInner() {
 
-    useEffect(()=>{
-        window.scrollTo(0,0)
-    },[])
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <div className='pastWorkInner'>
@@ -366,7 +366,9 @@ function PastWorkInner() {
                                                 </div>
                                                 <div className='text'>
                                                     <div className='heading'>
-                                                        <h4>BLING</h4>
+                                                        <article>
+                                                            <h4>BLING</h4>
+                                                        </article>
                                                     </div>
                                                     <div className='text-div'>
                                                         <p>
@@ -385,7 +387,9 @@ function PastWorkInner() {
                                                 </div>
                                                 <div className='text'>
                                                     <div className='heading'>
-                                                        <h4>MIXMO</h4>
+                                                        <article>
+                                                            <h4>MIXMO</h4>
+                                                        </article>
                                                     </div>
                                                     <div className='text-div'>
                                                         <p>

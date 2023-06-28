@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import PastWork1 from '../../assets/images/pastWork/past-work-1.png'
-import PastWork2 from '../../assets/images/pastWork/past-work-2.png'
-import PastWork3 from '../../assets/images/pastWork/past-work-3.png'
-import PastWork4 from '../../assets/images/pastWork/past-work-4.png'
-import PastWork5 from '../../assets/images/pastWork/past-work-5.png'
-import PastWork6 from '../../assets/images/pastWork/past-work-6.png'
+import PastWork1 from '../../assets/images/pastWork/past-work-1.svg'
+import PastWork2 from '../../assets/images/pastWork/past-work-2.svg'
+import PastWork3 from '../../assets/images/pastWork/past-work-3.svg'
+import PastWork4 from '../../assets/images/pastWork/past-work-4.svg'
+import PastWork5 from '../../assets/images/pastWork/past-work-5.svg'
+import PastWork6 from '../../assets/images/pastWork/past-work-6.svg'
 import FooterTop from '../../Components/FooterTop/FooterTop'
 import { NavLink } from 'react-router-dom'
 
@@ -42,11 +42,17 @@ function PastWork() {
                   </div>
                   <div className='text'>
                     <div className='heading'>
-                      <h4>THE VARIABLE</h4>
+<<<<<<< HEAD
+                      <article>
+                        <h4>THE VARIABLE</h4>
+                      </article>
+=======
+                      <h4>Elysio Burgers</h4>
+>>>>>>> d816b66379a3deb7b2e8deeb16289c0b822ccbd3
                     </div>
                     <div className='text-div'>
                       <p>
-                        The Variable — interactive design for those who fight indifference
+                      Increase customer reach and facilitate online ordering
                       </p>
                     </div>
                   </div>
@@ -61,11 +67,17 @@ function PastWork() {
                   </div>
                   <div className='text'>
                     <div className='heading'>
-                      <h4>SPACES</h4>
+<<<<<<< HEAD
+                      <article>
+                        <h4>SPACES</h4>
+                      </article>
+=======
+                      <h4>Medical Symmetry</h4>
+>>>>>>> d816b66379a3deb7b2e8deeb16289c0b822ccbd3
                     </div>
                     <div className='text-div'>
                       <p>
-                        Embracing the future: modern design for Spaces Urbanistic Institute
+                      Improve online presence by effectively presenting their range of services and incorporating an intuitive appointment booking system into their website.
                       </p>
                     </div>
                   </div>
@@ -80,11 +92,17 @@ function PastWork() {
                   </div>
                   <div className='text'>
                     <div className='heading'>
-                      <h4>BLING</h4>
+<<<<<<< HEAD
+                      <article>
+                        <h4>BLING</h4>
+                      </article>
+=======
+                      <h4>Fit and Delicious</h4>
+>>>>>>> d816b66379a3deb7b2e8deeb16289c0b822ccbd3
                     </div>
                     <div className='text-div'>
                       <p>
-                        Bling Jewelry Store — timeless beauty between vintage and novel
+                      Create a visually appealing and easily updatable WordPress website
                       </p>
                     </div>
                   </div>
@@ -99,18 +117,24 @@ function PastWork() {
                   </div>
                   <div className='text'>
                     <div className='heading'>
-                      <h4>MIXMO</h4>
+<<<<<<< HEAD
+                      <article>
+                        <h4>MIXMO</h4>
+                      </article>
+=======
+                      <h4>Sphere</h4>
+>>>>>>> d816b66379a3deb7b2e8deeb16289c0b822ccbd3
                     </div>
                     <div className='text-div'>
                       <p>
-                        Mixmo: shaking up the music scene with a bold and colorful image
+                      Develop a dynamic and user-friendly interface for seamless blockchain interactions, taking usability in the blockchain industry to new heights.
                       </p>
                     </div>
                   </div>
                 </div>
               </NavLink>
             </Col>
-            <Col sm={6}>
+            {/* <Col sm={6}>
               <NavLink to='/past-work/go-trade'>
                 <div className='past-work-box'>
                   <div className='img-div'>
@@ -118,7 +142,9 @@ function PastWork() {
                   </div>
                   <div className='text'>
                     <div className='heading'>
-                      <h4>GO TRADE</h4>
+                      <article>
+                        <h4>GO TRADE</h4>
+                      </article>
                     </div>
                     <div className='text-div'>
                       <p>
@@ -137,7 +163,9 @@ function PastWork() {
                   </div>
                   <div className='text'>
                     <div className='heading'>
-                      <h4>HEYTUTOR</h4>
+                      <article>
+                        <h4>HEYTUTOR</h4>
+                      </article>
                     </div>
                     <div className='text-div'>
                       <p>
@@ -147,7 +175,7 @@ function PastWork() {
                   </div>
                 </div>
               </NavLink>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </section>

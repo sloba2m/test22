@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { Container, Row } from 'react-bootstrap'
 import './Header.css'
-import Logo from '../../assets/images/header/logo.png'
+import Logo from '../../assets/images/header/logo.svg'
 import LogoSidebar from '../../assets/images/header/Logo-sidebar.png'
 import menuIcon from '../../assets/images/header/menu-icon.png'
 import menuClose from '../../assets/images/header/menu-close.png'
@@ -43,7 +43,7 @@ function Header() {
                             </NavLink>
                         </div>
                         <div className='menu-btn'>
-                            <button onClick={openNav} className=''><img src={menuIcon} /></button>
+                            <button onClick={openNav} className='menu-button'><img src={menuIcon} alt='menu-icon' /></button>
                         </div>
                     </div>
                 </Row>
@@ -51,7 +51,7 @@ function Header() {
             <div id="mySidenav" className="sidenav">
                 <div>
                     <div className='menu-close'>
-                        <img onClick={closeNav} src={menuClose} />
+                        <img onClick={closeNav} src={menuClose} alt='menu-close' />
                     </div>
                     <div className='navlinks'>
                         <ul>

@@ -1,16 +1,15 @@
 import React, { useEffect } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import ScrollDownIcon from '../../assets/images/whatWeDo/arrow-down.png'
-import Service1Icon from '../../assets/images/whatWeDo/Market-analysis.png'
-import Service2Icon from '../../assets/images/whatWeDo/Competitive-research.png'
-import Service3Icon from '../../assets/images/whatWeDo/Campaign-Ideation.png'
-import Service4Icon from '../../assets/images/whatWeDo/Persona-Development.png'
-import Service5Icon from '../../assets/images/whatWeDo/Heuristic-Evaluation.png'
-import Service6Icon from '../../assets/images/whatWeDo/Digital-Strategy.png'
-
-import Service7Icon from '../../assets/images/whatWeDo/UX.png'
-import Service8Icon from '../../assets/images/whatWeDo/Logo.png'
-import Service9Icon from '../../assets/images/whatWeDo/Business-Card.png'
+import Service1Icon from '../../assets/images/whatWeDo/service1.svg'
+import Service2Icon from '../../assets/images/whatWeDo/service2.svg'
+import Service3Icon from '../../assets/images/whatWeDo/service3.svg'
+import Service4Icon from '../../assets/images/whatWeDo/service4.svg'
+import Service5Icon from '../../assets/images/whatWeDo/service5.svg'
+import Service6Icon from '../../assets/images/whatWeDo/service6.svg'
+import Service7Icon from '../../assets/images/whatWeDo/service7.svg'
+import Service8Icon from '../../assets/images/whatWeDo/service8.svg'
+import Service9Icon from '../../assets/images/whatWeDo/service9.svg'
 
 import Service10Icon from '../../assets/images/whatWeDo/Frontend-code.png'
 import Service11Icon from '../../assets/images/whatWeDo/Backend-code.png'
@@ -77,17 +76,20 @@ function WhatWeDo() {
                                                         <img src={Service1Icon} alt='Consultation and Requirement Gathering' />
                                                     </div>
                                                     <div className='heading'>
-                                                        <h4>Consultation and Requirement Gathering</h4>
+                                                        <article>
+                                                            <h4>Consultation and Requirement Gathering</h4>
+                                                        </article>
                                                     </div>
                                                     <div className='text-div'>
-                                                        <ol>
+                                                        <ul>
                                                             <li>Discovery and Analysis</li>
                                                             <li>Crafting User-Centric Design</li>
                                                             <li>Defining Project Scope</li>
                                                             <li>Visualizing Concepts</li>
-                                                        </ol>
-
-                                                        <NavLink to='/what-we-do/Consultation-and-Requirement-Gathering'>LEARN MORE</NavLink>
+                                                        </ul>
+                                                        <span>
+                                                            LEARN MORE
+                                                        </span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -101,18 +103,21 @@ function WhatWeDo() {
                                                         <img src={Service2Icon} alt='DESIGN' />
                                                     </div>
                                                     <div className='heading'>
-                                                        <h4>Design Concept and Mockups</h4>
+                                                        <article>
+                                                            <h4>Design Concept and Mockups</h4>
+                                                        </article>
                                                     </div>
                                                     <div className='text-div'>
-                                                        <ol>
+                                                        <ul>
                                                             <li>Visualizing Your Vision</li>
                                                             <li>Inspiring Visual Language</li>
                                                             <li>Structuring the Blueprint</li>
                                                             <li>Bringing Design to Life</li>
-                                                        </ol>
-
-                                                        <NavLink to='/what-we-do/Design-Concept-and-Mockups'>LEARN MORE</NavLink>
-                                                    </div>
+                                                        </ul>
+                                                        <span>
+                                                            LEARN MORE
+                                                        </span>
+                                                        </div>
                                                 </div>
                                             </div>
                                         </NavLink>
@@ -125,18 +130,21 @@ function WhatWeDo() {
                                                         <img src={Service3Icon} alt='Develop' />
                                                     </div>
                                                     <div className='heading'>
-                                                        <h4>Custom Design and Development</h4>
+                                                        <article>
+                                                            <h4>Custom Design and Development</h4>
+                                                        </article>
                                                     </div>
                                                     <div className='text-div'>
-                                                        <ol>
+                                                        <ul>
                                                             <li>Front-End Development</li>
                                                             <li>Responsive Design</li>
                                                             <li>Content Integration and Interactive Functionality</li>
                                                             <li>Testing, Optimization, and Deployment</li>
-                                                        </ol>
-
-                                                        <NavLink to='/what-we-do/Custom-Design-and-Development'>LEARN MORE</NavLink>
-                                                    </div>
+                                                        </ul>
+                                                        <span>
+                                                            LEARN MORE
+                                                        </span>
+                                                        </div>
                                                 </div>
                                             </div>
                                         </NavLink>
@@ -149,18 +157,21 @@ function WhatWeDo() {
                                                         <img src={Service4Icon} alt='Optimize' />
                                                     </div>
                                                     <div className='heading'>
-                                                        <h4>Content Integration</h4>
+                                                        <article>
+                                                            <h4>Content Integration</h4>
+                                                        </article>
                                                     </div>
                                                     <div className='text-div'>
-                                                        <ol>
+                                                        <ul>
                                                             <li>Code Craftsmanship</li>
                                                             <li>Adapting to All Screens</li>
                                                             <li>Seamless Integration and Engaging Interactions</li>
                                                             <li>Testing, Optimizing, and Launching</li>
-                                                        </ol>
-
-                                                        <NavLink to='/what-we-do/Content-Integration'>LEARN MORE</NavLink>
-                                                    </div>
+                                                        </ul>
+                                                        <span>
+                                                            LEARN MORE
+                                                        </span>
+                                                        </div>
                                                 </div>
                                             </div>
                                         </NavLink>
@@ -173,18 +184,21 @@ function WhatWeDo() {
                                                         <img src={Service5Icon} alt='Maintenance' />
                                                     </div>
                                                     <div className='heading'>
-                                                        <h4>Responsive Design</h4>
+                                                        <article>
+                                                            <h4>Responsive Design</h4>
+                                                        </article>
                                                     </div>
                                                     <div className='text-div'>
-                                                        <ol>
+                                                        <ul>
                                                             <li>Dynamic Grids</li>
                                                             <li>Customized Styles</li>
                                                             <li>Adapting Visuals</li>
                                                             <li>User-Friendly Experience</li>
-                                                        </ol>
-
-                                                        <NavLink to='/what-we-do/Responsive-Design'>LEARN MORE</NavLink>
-                                                    </div>
+                                                        </ul>
+                                                        <span>
+                                                            LEARN MORE
+                                                        </span>
+                                                        </div>
                                                 </div>
                                             </div>
                                         </NavLink>
@@ -197,18 +211,21 @@ function WhatWeDo() {
                                                         <img src={Service6Icon} alt='Maintenance' />
                                                     </div>
                                                     <div className='heading'>
-                                                        <h4>Functionality and Features</h4>
+                                                        <article>
+                                                            <h4>Functionality and Features</h4>
+                                                        </article>
                                                     </div>
                                                     <div className='text-div'>
-                                                        <ol>
+                                                        <ul>
                                                             <li>Feature Identification</li>
                                                             <li>Planning, Design, and Integration</li>
                                                             <li>Custom Development</li>
                                                             <li>Testing, UX Considerations, Documentation, and Support</li>
-                                                        </ol>
-
-                                                        <NavLink to='/what-we-do/Functionality-and-Features'>LEARN MORE</NavLink>
-                                                    </div>
+                                                        </ul>
+                                                        <span>
+                                                            LEARN MORE
+                                                        </span>
+                                                        </div>
                                                 </div>
                                             </div>
                                         </NavLink>
@@ -221,18 +238,21 @@ function WhatWeDo() {
                                                         <img src={Service7Icon} alt='Maintenance' />
                                                     </div>
                                                     <div className='heading'>
-                                                        <h4>Testing and Quality Assurance</h4>
+                                                        <article>
+                                                            <h4>Testing and Quality Assurance</h4>
+                                                        </article>
                                                     </div>
                                                     <div className='text-div'>
-                                                        <ol>
+                                                        <ul>
                                                             <li>Unveiling the Possibilities</li>
                                                             <li>Strategic Planning and Seamless Integration</li>
                                                             <li>Tailored Solutions</li>
                                                             <li>Ensuring Excellence</li>
-                                                        </ol>
-
-                                                        <NavLink to='/what-we-do/Testing-and-Quality-Assurance'>LEARN MORE</NavLink>
-                                                    </div>
+                                                        </ul>
+                                                        <span>
+                                                            LEARN MORE
+                                                        </span>
+                                                        </div>
                                                 </div>
                                             </div>
                                         </NavLink>
@@ -245,18 +265,21 @@ function WhatWeDo() {
                                                         <img src={Service8Icon} alt='Maintenance' />
                                                     </div>
                                                     <div className='heading'>
-                                                        <h4>Deployment and Launch</h4>
+                                                        <article>
+                                                            <h4>Deployment and Launch</h4>
+                                                        </article>
                                                     </div>
                                                     <div className='text-div'>
-                                                        <ol>
+                                                        <ul>
                                                             <li>Setting the Stage</li>
                                                             <li>Secure Transfers and Dynamic Foundations</li>
                                                             <li>Domain Alignment and Final Checks</li>
                                                             <li>Speed and Efficiency</li>
-                                                        </ol>
-
-                                                        <NavLink to='/what-we-do/Deployment-and-Launch'>LEARN MORE</NavLink>
-                                                    </div>
+                                                        </ul>
+                                                        <span>
+                                                            LEARN MORE
+                                                        </span>
+                                                        </div>
                                                 </div>
                                             </div>
                                         </NavLink>
@@ -269,18 +292,21 @@ function WhatWeDo() {
                                                         <img src={Service9Icon} alt='Maintenance' />
                                                     </div>
                                                     <div className='heading'>
-                                                        <h4>Ongoing Support and Maintenance</h4>
+                                                        <article>
+                                                            <h4>Ongoing Support and Maintenance</h4>
+                                                        </article>
                                                     </div>
                                                     <div className='text-div'>
-                                                        <ol>
+                                                        <ul>
                                                             <li>Reliable Support and Issue Resolution</li>
                                                             <li>Safeguarding Stability</li>
                                                             <li>Driving Efficiency</li>
                                                             <li>Content Care and Expert Guidance</li>
-                                                        </ol>
-
-                                                        <NavLink to='/what-we-do/Ongoing-Support-and-Maintenance'>LEARN MORE</NavLink>
-                                                    </div>
+                                                        </ul>
+                                                        <span>
+                                                            LEARN MORE
+                                                        </span>
+                                                        </div>
                                                 </div>
                                             </div>
                                         </NavLink>

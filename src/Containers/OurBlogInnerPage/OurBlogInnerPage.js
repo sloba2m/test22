@@ -3,12 +3,12 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
 import FooterTop from '../../Components/FooterTop/FooterTop'
 
-import section2Image from '../../assets/images/blogInner/Product-concept.png'
-import section8Image from '../../assets/images/blogInner/Design.png'
+import section2Image from '../../assets/images/blogInner/Product-concept.svg'
+import section8Image from '../../assets/images/blogInner/Design.svg'
 
-import pBlog1 from '../../assets/images/blogInner/Real-estate.png'
-import pBlog2 from '../../assets/images/blogInner/Uiandux2.png'
-import pBlog3 from '../../assets/images/blogInner/Programming.png'
+import pBlog1 from '../../assets/images/blogInner/Real-estate.svg'
+import pBlog2 from '../../assets/images/blogInner/Uiandux2.svg'
+import pBlog3 from '../../assets/images/blogInner/Programming.svg'
 
 import './OurBlogInnerPage.css'
 
