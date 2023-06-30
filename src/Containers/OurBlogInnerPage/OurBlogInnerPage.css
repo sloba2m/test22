@@ -1,140 +1,291 @@
 .ourBlogInnerPage .hero-what-we-do {
-  height: 653px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url(../../assets/images/blogInner/Uiandux.svg);
-  position: relative;
-  background-size: cover;
-  background-position: center;
+    height: 653px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../assets/images/blogInner/Uiandux.svg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
 }
 
 .ourBlogInnerPage .hero-what-we-do .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, #000000 5.59%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #000000 5.59%, rgba(0, 0, 0, 0) 100%);
 }
 
 .ourBlogInnerPage .hero-what-we-do h1 {
-  margin: auto;
-  width: 1034px;
-  color: #fff;
-  -webkit-text-fill-color: #fff;
-  text-fill-color: #fff;
+    margin: auto;
+    width: 1034px;
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+    text-fill-color: #fff;
 }
 
 .ourBlogInnerPage .section1.first {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .ourBlogInnerPage .section1 {
-  margin-top: 60px;
+    margin-top: 60px;
 }
 
 .ourBlogInnerPage .footer-top-main {
-  padding-top: 80px;
+    padding-top: 80px;
 }
 
-.ourBlogInnerPage
-  .footer-top-main
-  .footer-top-text
-  .btn-gradient-border
-  button {
-  width: 216px;
-  height: 76px;
-  font-size: 30px;
-  line-height: 36px;
+.ourBlogInnerPage .footer-top-main .footer-top-text .btn-gradient-border button {
+    width: 216px;
+    height: 76px;
+    font-size: 30px;
+    line-height: 36px;
 }
 
 .ourBlogInnerPage a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .ourBlogInnerPage .section1 {
-  padding: 60px 0;
-  padding-bottom: 0;
+    padding: 60px 0;
+    padding-bottom: 0;
 }
 
 .ourBlogInnerPage .section1 .text-div {
-  margin-top: 40px;
-  padding-right: 10px;
+    margin-top: 40px;
+    padding-right: 10px;
 }
 
 .ourBlogInnerPage .section1 .text-div p {
-  font-family: "Plus Jakarta Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 170%;
-  color: #000000;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    color: #000000;
 }
 
 .ourBlogInnerPage .section1 .text-div p span {
-  display: inline-block;
-  text-decoration: underline;
+    display: inline-block;
+    text-decoration: underline;
 }
 
 .ourBlogInnerPage .section1 .text-div p span::after {
-  content: "";
-  width: 100%;
-  position: absolute;
+    content: "";
+    width: 100%;
+    position: absolute;
+
 }
 
 .ourBlogInnerPage .section1 .img-div {
-  margin-top: 120px;
+    margin-top: 120px;
 }
 
 .ourBlogInnerPage .section1 .img-div .heading h5 {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .ourBlogInnerPage .section1 .img-div .heading.two h5 {
-  margin-bottom: 0;
-  margin-top: 40px;
-  text-align: center;
+    margin-bottom: 0;
+    margin-top: 40px;
+    text-align: center;
 }
 
 .ourBlogInnerPage .section1 .img-div img {
-  width: 100%;
+    width: 100%;
 }
 
 .ourBlogInnerPage .section1 .img-div .topSpace {
-  margin-top: 80px;
+    margin-top: 80px;
 }
 
 .ourBlogInnerPage .section1 .list-div .list {
-  padding-left: 30px;
-  position: relative;
+    padding-left: 30px;
+    position: relative;
 }
 
 .ourBlogInnerPage .section1 .list-div .list::before {
-  content: "";
-  width: 7px;
-  height: 7px;
-  border-radius: 7px;
-  background-color: #000000;
-  position: absolute;
-  top: 17px;
-  left: 12px;
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 7px;
+    background-color: #000000;
+    position: absolute;
+    top: 17px;
+    left: 12px;
 }
 
 .ourBlogInnerPage .popular-blog {
-  margin-top: 160px;
+    margin-top: 160px;
 }
 
 .ourBlogInnerPage .popular-blog h2 {
-  background: linear-gradient(270deg, #fb7eff 0%, #1717ff 46.88%, #00e7ff 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-  width: max-content;
-  margin: auto;
+    background: linear-gradient(270deg, #FB7EFF 0%, #1717FF 46.88%, #00E7FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    width: max-content;
+    margin: auto;
 }
 
 .ourBlogInnerPage .popular-blog .popular-blog-boxes {
-  margin-top: 80px;
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 1056px) and (min-width: 992px) {
+    .ourBlogInnerPage .hero-what-we-do h1 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .ourBlogInnerPage .hero-what-we-do {
+        height: 398.68px;
+    }
+
+    .ourBlogInnerPage .hero-what-we-do h1 {
+        width: 714px;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+    }
+
+    .ourBlogInnerPage .section1 .text-div p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #737373;
+    }
+
+    .ourBlogInnerPage .section1 {
+        margin-top: 0;
+    }
+
+    .ourBlogInnerPage .section1 .text-div {
+        margin-top: 20px;
+    }
+
+    .ourBlogInnerPage .section1.first .text-div {
+        margin-top: 40px;
+    }
+
+    .ourBlogInnerPage .section1 .img-div {
+        margin-top: 60px;
+    }
+
+    .ourBlogInnerPage .section1 .img-div .heading h5 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+
+    .ourBlogInnerPage .section1 .img-div .heading.two h5 {
+        margin-top: 20px;
+    }
+
+    .ourBlogInnerPage .popular-blog h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 140%;
+    }
+
+    .ourBlogInnerPage .popular-blog {
+        margin-top: 120px;
+    }
+
+    .ourBlogInnerPage .popular-blog .first {
+        display: none;
+    }
+
+    .ourBlogInnerPage .popular-blog .popular-blog-boxes {
+        margin-top: 60px;
+    }
+
+    .ourBlogInnerPage .footer-top-main .footer-top-text .btn-gradient-border button {
+        width: 171px;
+        height: 60px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .ourBlogInnerPage .hero-what-we-do {
+        height: 251px;
+    }
+
+    .ourBlogInnerPage .hero-what-we-do h1 {
+        width: 100%;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .ourBlogInnerPage .section1 {
+        margin-top: 0;
+        padding-top: 30px;
+    }
+
+    .ourBlogInnerPage .section1.first{
+        margin-top: 0;
+    }
+
+    .ourBlogInnerPage .section1 .text-div {
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+    .ourBlogInnerPage .section1 .text-div p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .ourBlogInnerPage .section1 .heading h3 {
+        text-align: center;
+    }
+
+    .ourBlogInnerPage .section1 .img-div {
+        margin-top: 0;
+    }
+
+    .ourBlogInnerPage .section1 .img-div .heading h5 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .ourBlogInnerPage .section1 .img-div .heading.two h5{
+        margin: 30px 0;
+    }
+
+    .ourBlogInnerPage .popular-blog{
+        margin-top: 30px;
+    }
+
+    .ourBlogInnerPage .footer-top-main{
+        padding: 0;
+    }
+
+    .ourBlogInnerPage .footer-top-main .footer-top-text .btn-gradient-border button {
+        width: 160px;
+        height: 50px;
+        padding: 14px 26px !important;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
