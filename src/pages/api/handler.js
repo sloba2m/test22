@@ -3,51 +3,54 @@ export default function handler(req, res) {
   res.send(200);
 }
 
-const { SuperfaceClient } = require("@superfaceai/one-sdk");
+const { SuperfaceClient } = require('@superfaceai/one-sdk');
 
-// You can manage tokens here: https://superface.ai/insights
-const sdk = new SuperfaceClient({
-  sdkAuthToken:
-    "sfs_f7b687120c1d97be9d88c984b4aa5115dfb3b634bc0c7b92aab044eacf520268c3c70a9361bd4e7d29ad8d81ae2161d55b82cc39852e4536eec64c794f4b19c5_64cf7ab3",
-});
+const sdk = new SuperfaceClient();
 
-async function run() {
-  // Load the profile
-  const profile = await sdk.getProfile("communication/send-email@2.2.0");
+// Just check if all required fields are provided
+function formValid(body) {
+  return body.email && body.phone && body.first && body.last;
+}
 
-  // Use the profile
-  const result = await profile.getUseCase("SendEmail").perform(
+export default async function handler(req, res) {
+  const body = req.body;
+
+  if (!formValid(body)) {
+    res.status(422).end();
+    return;
+  }
+
+  const profile = await sdk.getProfile('communication/send-email@2.1.0');
+  const message = `
+    Email: ${body.email}
+    Interest: ${body.interest}
+    Name: ${body.name}
+    Budget: ${body.budget}
+    Message: ${body.message} 
+    `;
+  const result = await profile.getUseCase('SendEmail').perform(
     {
-      from: "no-reply@example.com",
-      to: "jane.doe@example.com",
-      subject: "Your order has been shipped!",
-      text: "Hello Jane, your recent order on Our Shop has been shipped.",
-      attachments: [
-        {
-          filename: "order.pdf",
-          type: "application/pdf",
-          content: "JVBERi0xLjQKJeLjz9MKMyAwIG9...",
-        },
-      ],
+      from: process.env.FROM_EMAIL,
+      to: process.env.TO_EMAIL,
+      subject: 'Message from contact form',
+      text: message,
     },
     {
-      provider: "sendgrid",
+      provider: 'sendgrid',
       security: {
         bearer_token: {
-          token:
-            "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",
+          token: process.env.SENDGRID_API_KEY,
         },
       },
     }
   );
 
-  // Handle the result
   try {
     const data = result.unwrap();
     console.log(data);
+    res.status(201).end();
   } catch (error) {
     console.error(error);
+    res.status(500).end();
   }
 }
-
-run();

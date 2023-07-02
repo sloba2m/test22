@@ -122,7 +122,10 @@ function Contact() {
               <Col md={12}>
                 <div className="input-div">
                   <label>Other important information</label>
-                  <textarea placeholder="Let's tell us know what about your project"></textarea>
+                  <textarea
+                    name="message"
+                    placeholder="Let's tell us know what about your project"
+                  ></textarea>
                 </div>
               </Col>
             </Row>
