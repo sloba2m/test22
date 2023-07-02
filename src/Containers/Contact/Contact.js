@@ -5,11 +5,6 @@ import Select from "react-select";
 
 import "./Contact.css";
 
-export default function handler(req, res) {
-    console.log(req.body);
-    res.send(200);
-  }
-
 async function handleSubmit(e) {
   e.preventDefault();
   const data = new FormData(e.currentTarget);
