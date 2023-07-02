@@ -5,10 +5,27 @@ import Select from "react-select";
 
 import "./Contact.css";
 
+export default function handler(req, res) {
+    console.log(req.body);
+    res.send(200);
+  }
+
 async function handleSubmit(e) {
   e.preventDefault();
   const data = new FormData(e.currentTarget);
-  console.log(data);
+  try {
+    const response = await fetch("/api/contact", {
+      method: "post",
+      body: new URLSearchParams(data),
+    });
+    if (!response.ok) {
+      throw new Error(`Invalid response: ${response.status}`);
+    }
+    alert("Thanks for contacting us, we will get back to you soon!");
+  } catch (err) {
+    console.error(err);
+    alert("We can't submit the form, try again later?");
+  }
 }
 
 function Contact() {
