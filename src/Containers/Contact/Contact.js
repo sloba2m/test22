@@ -9,7 +9,7 @@ async function handleSubmit(e) {
   e.preventDefault();
   const data = new FormData(e.currentTarget);
   try {
-    const response = await fetch("/api/contact", {
+    const response = await fetch("handler", {
       method: "post",
       body: new URLSearchParams(data),
     });
