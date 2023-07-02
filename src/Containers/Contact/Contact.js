@@ -76,13 +76,23 @@ function Contact() {
               <Col md={6}>
                 <div className="input-div">
                   <label>Your name</label>
-                  <input required type="text" placeholder="Your name" />
+                  <input
+                    required
+                    type="text"
+                    name="name"
+                    placeholder="Your name"
+                  />
                 </div>
               </Col>
               <Col md={6}>
                 <div className="input-div">
                   <label>Your mail</label>
-                  <input required type="text" placeholder="Your mail" />
+                  <input
+                    required
+                    type="text"
+                    name="email"
+                    placeholder="Your mail"
+                  />
                 </div>
               </Col>
               <Col md={6}>
@@ -95,13 +105,18 @@ function Contact() {
                     onChange={handleChange}
                     classNamePrefix="custom-select"
                     className="custom-select-container"
+                    name="interest"
                   />
                 </div>
               </Col>
               <Col md={6}>
                 <div className="input-div">
                   <label>Project budget</label>
-                  <input type="text" placeholder="Select your budget" />
+                  <input
+                    type="text"
+                    name="budget"
+                    placeholder="Select your budget"
+                  />
                 </div>
               </Col>
               <Col md={12}>
