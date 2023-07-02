@@ -9,7 +9,7 @@ const sdk = new SuperfaceClient();
 
 // Just check if all required fields are provided
 function formValid(body) {
-  return body.email && body.phone && body.first && body.last;
+  return body.email && body.interest && body.name && body.budget && body.message;
 }
 
 export default async function handler(req, res) {
