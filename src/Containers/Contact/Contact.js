@@ -5,6 +5,13 @@ import Select from "react-select";
 
 import "./Contact.css";
 
+export default function Home() {
+    async function handleSubmit(e) {
+      e.preventDefault();
+      const data = new FormData(e.currentTarget);
+      console.log(data);
+    }
+
 function Contact() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -29,13 +36,6 @@ function Contact() {
       label: "Multi-device compatibility",
     },
   ];
-
-  export default function Home() {
-    async function handleSubmit(e) {
-      e.preventDefault();
-      const data = new FormData(e.currentTarget);
-      console.log(data);
-    }
 
   return (
     <div className="contact">
