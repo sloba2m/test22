@@ -30,11 +30,12 @@ function Contact() {
     },
   ];
 
-  async function handleSubmit(e) {
-    e.preventDefault();
-    const data = new FormData(e.currentTarget);
-    console.log(data);
-  }
+  export default function Home() {
+    async function handleSubmit(e) {
+      e.preventDefault();
+      const data = new FormData(e.currentTarget);
+      console.log(data);
+    }
 
   return (
     <div className="contact">
@@ -59,7 +60,7 @@ function Contact() {
 
       <section className="section1">
         <Container>
-          <form>
+          <form onSubmit={handleSubmit}>
             <Row>
               <Col md={6}>
                 <div className="input-div">
