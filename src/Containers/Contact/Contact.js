@@ -5,12 +5,11 @@ import Select from "react-select";
 
 import "./Contact.css";
 
-export default function Home() {
-    async function handleSubmit(e) {
-      e.preventDefault();
-      const data = new FormData(e.currentTarget);
-      console.log(data);
-    }
+async function handleSubmit(e) {
+  e.preventDefault();
+  const data = new FormData(e.currentTarget);
+  console.log(data);
+}
 
 function Contact() {
   useEffect(() => {
