@@ -169,7 +169,7 @@
 }
 
 .contact .section2 .accordion-button {
-    height: 60px;
+    min-height: 60px;
     background: #FAFAFA;
     border-radius: 4px;
     border: none;

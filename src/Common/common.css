@@ -214,12 +214,27 @@ li {
     margin: 0;
     color: #737373;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .service-div .text-div ul li {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    display: inline-flex;
+    position: relative;
+}
+
+.service-div .text-div ul li::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: -20px;
+    width: 8px;
+    height: 8px;
+    background-color: #737373;
+    border-radius: 8px;
 }
 
 .service-div .text-div span {
@@ -424,12 +439,14 @@ li {
 
     .service-div .text-div ul{
         text-align: center;
+        align-items: center;
     }
 
     .service-div .text-div ul li{
         width: max-content;
         margin: auto;
         max-width: 100%;
+        text-align: left;
     }
 
     .footer-top-main .footer-top-text {
@@ -580,6 +597,7 @@ li {
         width: max-content;
         margin: auto;
         max-width: 100%;
+        text-align: left;
     }
 
     .footer-top-main {

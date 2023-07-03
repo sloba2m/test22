@@ -381,7 +381,7 @@ function WhatWeDoInner() {
                     {obj.arr.map((a, i) => {
                         return (
                             i % 2 == 0 ?
-                                <>
+                                <article key={i}>
                                     <section className='section2'>
                                         <Container>
                                             <Row className='align-items-center reverse'>
@@ -407,9 +407,9 @@ function WhatWeDoInner() {
                                     </section>
 
                                     <hr />
-                                </>
+                                </article>
                                 :
-                                <>
+                                <article key={i}>
                                     <section className='section2'>
                                         <Container>
                                             <Row className='align-items-center'>
@@ -445,7 +445,7 @@ function WhatWeDoInner() {
                                     {i !== data[1].arr.length - 1 &&
                                         <hr />
                                     }
-                                </>
+                                </article>
                         )
                     })}
 
