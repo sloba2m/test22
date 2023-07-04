@@ -296,3 +296,12 @@
         line-height: 24px;
     }
 }
+
+.alertDiv{
+    width: 300px;
+    position: fixed;
+    top: 50px;
+    left: -300px;
+    z-index: 9999;
+    transition: 0.3s;
+}

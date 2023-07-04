@@ -198,6 +198,12 @@ li {
     /* margin-bottom: 32px; */
 }
 
+.service-div .icon-div img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
 .service-div .text-div {
     margin-top: 12px;
     width: 80%;
@@ -262,7 +268,8 @@ li {
 }
 
 .past-work-box .img-div img {
-    width: 100%;
+    max-width: 100%;
+    margin: 0 2px;
 }
 
 .past-work-box .text {
@@ -323,7 +330,7 @@ li {
 }
 
 .blog-single .img-div img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .blog-single h5 {

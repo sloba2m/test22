@@ -33,6 +33,10 @@ function Contact() {
                 setBudget("")
                 setMessage("")
                 setSelectedOptions([])
+                document.getElementById("alertDiv").style.left = "0"
+                setTimeout(() => {
+                    document.getElementById("alertDiv").style.left = "-300px"
+                }, 2000)
             }, (error) => {
                 console.log(error.text);
             });
@@ -53,6 +57,9 @@ function Contact() {
         <div className='contact'>
             <div className='hero-home'>
                 <Container className='text-center'>
+                    <div class="alert alert-success alertDiv" id="alertDiv" role="alert">
+                        The mail has been sent
+                    </div>
                     <Row>
                         <Col md={8}>
                             <div className='heading'>

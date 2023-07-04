@@ -9,6 +9,12 @@ header {
     z-index: 999;
 }
 
+header .logo-img img {
+    max-width: 208.17px;
+    height: 34px;
+    object-fit: contain;
+}
+
 header .flex-div {
     display: flex;
     justify-content: space-between;
