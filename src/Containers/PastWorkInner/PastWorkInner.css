@@ -1,12 +1,14 @@
 .pastWorkInner .hero-what-we-do {
-    height: 653px;
+    height: 902px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../../assets/images/pastWorkInner/section1-bg.svg);
+    /* background-image: url(../../assets/images/pastWorkInner/section1-bg.svg); */
+    background: #4EBC52;
     position: relative;
     background-size: cover;
     background-position: center;
+    margin-bottom: 600px;
 }
 
 .pastWorkInner .hero-what-we-do .overlay {
@@ -15,7 +17,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, #000000 5.59%, rgba(0, 0, 0, 0) 100%);
+    /* background: linear-gradient(90deg, #000000 5.59%, rgba(0, 0, 0, 0) 100%); */
 }
 
 .pastWorkInner .hero-what-we-do h1 {
@@ -24,6 +26,59 @@
     color: #fff;
     -webkit-text-fill-color: #fff;
     text-fill-color: #fff;
+}
+
+.pastWorkInner .hero-what-we-do h3 {
+    color: #fff;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.pastWorkInner .hero-what-we-do .tech-used {
+    margin-top: 60px;
+}
+
+.pastWorkInner .hero-what-we-do .tech-used .heading {
+    margin-bottom: 24px;
+}
+
+.pastWorkInner .hero-what-we-do .tech-used .heading h4 {
+    color: #fff;
+}
+
+.pastWorkInner .hero-what-we-do .tech-used .tech-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    column-gap: 24px;
+}
+
+.pastWorkInner .hero-what-we-do .main-img {
+    margin-bottom: -600px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.pastWorkInner .hero-what-we-do .main-img .img {
+    max-width: 100%;
+}
+
+.pastWorkInner .hero-what-we-do .main-img .qr-img {
+    position: absolute;
+    right: 0;
+}
+
+.pastWorkInner .hero-what-we-do .main-img .heading h3 {
+    color: #262626;
+}
+
+.pastWorkInner .hero-what-we-do .main-img .heading h3 a {
+    color: #262626;
+}
+
+.pastWorkInner .hero-what-we-do .main-img .heading h3 a img {
+    margin-left: 30px;
 }
 
 .pastWorkInner .section1 {
@@ -78,10 +133,16 @@
 
 .pastWorkInner .section1 .img-div {
     margin-top: 120px;
+    text-align: center;
 }
 
 .pastWorkInner .section1 .img-div img {
     width: 100%;
+}
+
+.pastWorkInner .section1 .img-div.low-width img{
+    max-width: 896.15px;
+    margin: auto;
 }
 
 .pastWorkInner .section1 .img-div .topSpace {
@@ -139,6 +200,23 @@
         font-size: 48px;
         line-height: 120%;
         width: 100%;
+    }
+
+    .pastWorkInner .hero-what-we-do {
+        height: 645px;
+        margin-bottom: 370px;
+    }
+
+    .pastWorkInner .hero-what-we-do .main-img {
+        margin-bottom: -410px;
+    }
+
+    .pastWorkInner .hero-what-we-do .main-img .img {
+        width: 80%;
+    }
+
+    .pastWorkInner .hero-what-we-do .main-img .qr-img {
+        right: 50px;
     }
 
     .pastWorkInner .section1 {
@@ -220,6 +298,35 @@
         width: 100%;
     }
 
+    .pastWorkInner .hero-what-we-do {
+        height: 550px;
+        margin-bottom: 380px;
+    }
+
+    .pastWorkInner .hero-what-we-do .main-img {
+        margin-bottom: -370px;
+    }
+
+    .pastWorkInner .hero-what-we-do .main-img .img {
+        width: 80%;
+    }
+
+    .pastWorkInner .hero-what-we-do .main-img .qr-img {
+        right: 20px;
+    }
+
+    .pastWorkInner .hero-what-we-do .tech-used {
+        margin-top: 30px;
+    }
+
+    .pastWorkInner .hero-what-we-do .tech-used .tech-icons {
+        column-gap: 10px;
+    }
+
+    .pastWorkInner .hero-what-we-do .tech-used img {
+        width: 30px;
+    }
+
     .pastWorkInner .section1 {
         margin-top: 0;
     }
@@ -228,7 +335,7 @@
         text-align: center;
     }
 
-    .pastWorkInner .section1 .text-div{
+    .pastWorkInner .section1 .text-div {
         margin-top: 30px;
     }
 
@@ -240,31 +347,75 @@
         text-align: center;
     }
 
-    .pastWorkInner .section1 .img-div{
+    .pastWorkInner .section1 .img-div {
         margin-top: 30px;
     }
 
-    .pastWorkInner .section1 .list-div .list{
+    .pastWorkInner .section1 .list-div .list {
         padding: 0;
     }
 
-    .pastWorkInner .section1 .text-div{
+    .pastWorkInner .section1 .text-div {
         padding: 0;
 
     }
 
-    .pastWorkInner .section1 .list-div .list::before{
+    .pastWorkInner .section1 .list-div .list::before {
         display: none;
     }
 
-    .pastWorkInner .section1 .img-div .topSpace{
+    .pastWorkInner .section1 .img-div .topSpace {
         margin-top: 30px;
     }
 
-    .pastWorkInner .footer-top-main{
+    .pastWorkInner .footer-top-main {
         padding: 0;
     }
-    .footer-top-main .footer-top-text{
+
+    .footer-top-main .footer-top-text {
         padding-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .pastWorkInner .hero-what-we-do {
+        margin-bottom: 210px;
+    }
+
+    .pastWorkInner .hero-what-we-do .main-img .heading h3 {
+        font-size: 24px;
+    }
+
+    .pastWorkInner .hero-what-we-do .main-img .heading h3 a img {
+        width: 24px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .pastWorkInner .hero-what-we-do .main-img {
+        margin-bottom: -270px;
+    }
+
+    .pastWorkInner .hero-what-we-do {
+        height: 480px;
+        margin-bottom: 180px;
+    }
+
+    .pastWorkInner .hero-what-we-do .main-img .heading h3 {
+        font-size: 18px;
+    }
+
+    .pastWorkInner .hero-what-we-do .main-img .heading h3 a img {
+        width: 18px;
+        margin-left: 10px;
+    }
+
+    .pastWorkInner .hero-what-we-do .main-img .qr-img {
+        right: 0;
+    }
+
+    .pastWorkInner .hero-what-we-do .main-img .qr-img .img {
+        width: 50px;
     }
 }

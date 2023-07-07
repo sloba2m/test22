@@ -87,8 +87,8 @@ function Contact() {
                             </Col>
                             <Col md={6}>
                                 <div className='input-div'>
-                                    <label>Your mail</label>
-                                    <input onChange={(e) => setEmail(e.target.value)} value={email} required type='text' placeholder='Your mail' name='email' />
+                                    <label>Your e-mail</label>
+                                    <input onChange={(e) => setEmail(e.target.value)} value={email} required type='text' placeholder='Your e-mail' name='email' />
                                 </div>
                             </Col>
                             <Col md={6}>
@@ -114,7 +114,7 @@ function Contact() {
                             <Col md={12}>
                                 <div className='input-div'>
                                     <label>Other important information</label>
-                                    <textarea onChange={(e) => setMessage(e.target.value)} value={message} placeholder="Let's tell us know what about your project" name='message'></textarea>
+                                    <textarea onChange={(e) => setMessage(e.target.value)} value={message} placeholder="Tell us more about your project" name='message'></textarea>
                                 </div>
                             </Col>
                         </Row>
@@ -127,7 +127,36 @@ function Contact() {
                 </Container>
             </section>
 
+
             <section className='section2'>
+                <Container>
+                    <Row>
+                        <Col md={6}>
+                            <div className='heading'>
+                                <h2>Connect with Us</h2>
+                            </div>
+                            <div className='text-div'>
+                                <ul>
+                                    <li><a href='mailto:hi@pixelinfinity.io'>hi@pixelinfinity.io</a></li>
+                                    <li>Call coming soon</li>
+                                </ul>
+                            </div>
+                        </Col>
+                        <Col md={6}>
+                            <div className='heading'>
+                                <h2>Support</h2>
+                            </div>
+                            <div className='text-div'>
+                                <ul>
+                                    <li><a href='mailto:support@pixelinfinity.io'>support@pixelinfinity.io</a></li>
+                                </ul>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+
+            <section className='section3'>
                 <Container>
                     <Row>
                         <Col md={12}>

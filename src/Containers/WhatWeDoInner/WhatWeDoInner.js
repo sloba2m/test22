@@ -68,6 +68,7 @@ let data = [
     {
         id: "Consultation-and-Requirement-Gathering",
         name: "Consultation and Requirement Gathering",
+        para: "The thorough consultation and requirements gathering process aims to understand your needs, align expectations, and set the stage for a successful web design project.",
         mainICon: service1main,
         arr: [
             {
@@ -91,7 +92,7 @@ let data = [
             {
                 name: "Wireframing, Prototyping, and Branding Assets",
                 para: "Wireframes or prototypes may be created to visualize the website's structure, and branding assets like logos and color palettes are gathered. These steps help align the design with your brand identity and facilitate feedback for revisions.",
-                para2: "The thorough consultation and requirements gathering process aims to understand your needs, align expectations, and set the stage for a successful web design project.",
+                para2: "",
                 icon: service1main4
             },
         ]
@@ -99,6 +100,7 @@ let data = [
     {
         id: "Design-Concept-and-Mockups",
         name: "Design Concept and Mockup",
+        para: "The collaborative process aims to create a design that aligns with your vision, brand identity, and target audience, ensuring that the final design accurately captures your requirements and expectations.",
         mainICon: service2main,
         arr: [
             {
@@ -122,7 +124,7 @@ let data = [
             {
                 name: "Design Concepts",
                 para: "Wireframes or prototypes may be created to visualize the website's structure, and branding assets like logos and color palettes are gathered. These steps help align the design with your brand identity and facilitate feedback for revisions.",
-                para2: "The collaborative process aims to create a design that aligns with your vision, brand identity, and target audience, ensuring that the final design accurately captures your requirements and expectations.",
+                para2: "",
                 icon: service2main4
             },
         ]
@@ -130,6 +132,7 @@ let data = [
     {
         id: "Custom-Design-and-Development",
         name: "Custom Design and Development",
+        para: "Close collaboration, communication, and feedback between you and the web design team are crucial throughout the custom design and development phase to ensure a final website that meets your expectations.",
         mainICon: service3main,
         arr: [
             {
@@ -153,7 +156,7 @@ let data = [
             {
                 name: "Testing, Optimization, and Deployment",
                 para: "Wireframes or prototypes may be created to visualize the website's structure, and branding assets like logos and color palettes are gathered. These steps help align the design with your brand identity and facilitate feedback for revisions.",
-                para2: "Close collaboration, communication, and feedback between you and the web design team are crucial throughout the custom design and development phase to ensure a final website that meets your expectations.",
+                para2: "",
                 icon: service3main4
             },
         ]
@@ -161,6 +164,7 @@ let data = [
     {
         id: "Content-Integration",
         name: "Content Integration",
+        para: "Effective communication and collaboration with the web design team, along with well-organized and high-quality content, contribute to a seamless integration process and a cohesive, engaging website.",
         mainICon: service4main,
         arr: [
             {
@@ -184,7 +188,7 @@ let data = [
             {
                 name: "CMS Integration, Navigation, and Validation",
                 para: "If a CMS platform is used, the content is integrated, and navigation menus and internal links are set up. Content validation is performed to ensure accurate display and alignment across devices. Multilingual support is addressed if necessary.",
-                para2: "Effective communication and collaboration with the web design team, along with well-organized and high-quality content, contribute to a seamless integration process and a cohesive, engaging website.",
+                para2: "",
                 icon: service4main4
             },
         ]
@@ -192,6 +196,7 @@ let data = [
     {
         id: "Responsive-Design",
         name: "Responsive Design",
+        para: "Implementing responsive design ensures an optimal user experience on various devices, and thorough testing and iteration are conducted to address any layout or usability issues that may arise.",
         mainICon: service5main,
         arr: [
             {
@@ -215,7 +220,7 @@ let data = [
             {
                 name: "Responsive Typography and Navigation",
                 para: "Typography is adjusted using relative units for legibility, and navigation is optimized for smaller screens with collapsible menus or responsive navigation patterns.",
-                para2: "Implementing responsive design ensures an optimal user experience on various devices, and thorough testing and iteration are conducted to address any layout or usability issues that may arise.",
+                para2: "",
                 icon: service5main4
             },
         ]
@@ -223,6 +228,7 @@ let data = [
     {
         id: "Functionality-and-Features",
         name: "Functionality and Features",
+        para: "The web design team's collaboration throughout the process aims to ensure that the implemented functionalities meet your requirements and enhance the overall user experience of your website.",
         mainICon: service6main,
         arr: [
             {
@@ -246,7 +252,7 @@ let data = [
             {
                 name: "Testing, UX Considerations, Documentation, and Support",
                 para: "Thorough testing is conducted to ensure functionality and reliability. User experience aspects are considered, and documentation or training materials may be provided. Ongoing support and maintenance services are available for bug fixes, updates, and technical assistance.",
-                para2: "The web design team's collaboration throughout the process aims to ensure that the implemented functionalities meet your requirements and enhance the overall user experience of your website.",
+                para2: "",
                 icon: service6main4
             },
         ]
@@ -254,6 +260,7 @@ let data = [
     {
         id: "Testing-and-Quality-Assurance",
         name: "Testing and Quality Assurance",
+        para: "By following a rigorous testing and quality assurance process, the web design team aims to deliver a high-quality website that meets requirements, functions correctly, and provides a positive user experience.",
         mainICon: service7main,
         arr: [
             {
@@ -277,7 +284,7 @@ let data = [
             {
                 name: "Security Testing and Bug Resolution",
                 para: "Security testing identifies vulnerabilities and implements measures to protect the website and user data. Bugs and issues are documented, tracked, and resolved through iterative testing and bug fixing.",
-                para2: "By following a rigorous testing and quality assurance process, the web design team aims to deliver a high-quality website that meets requirements, functions correctly, and provides a positive user experience.",
+                para2: "",
                 icon: service7main4
             },
         ]
@@ -285,6 +292,7 @@ let data = [
     {
         id: "Deployment-and-Launch",
         name: "Deployment and Launch",
+        para: "Collaboration, communication, and post-launch monitoring are important to ensure a smooth transition to the live environment and address any post-launch concerns or necessary adjustments.",
         mainICon: service8main,
         arr: [
             {
@@ -308,7 +316,7 @@ let data = [
             {
                 name: "Performance Optimization and Launch",
                 para: "The website is optimized for performance, enabling caching, minimizing server requests, and compressing files. Once testing and optimizations are complete, the website is officially launched and made publicly accessible.",
-                para2: "Collaboration, communication, and post-launch monitoring are important to ensure a smooth transition to the live environment and address any post-launch concerns or necessary adjustments.",
+                para2: "",
                 icon: service8main4
             },
         ]
@@ -316,6 +324,7 @@ let data = [
     {
         id: "Ongoing-Support-and-Maintenance",
         name: "Ongoing Support and Maintenance",
+        para: "By discussing and establishing clear expectations, service level agreements, and ongoing support terms, a strong partnership can be formed with the web design team for continued success and the smooth functioning of your website.",
         mainICon: service9main,
         arr: [
             {
@@ -339,7 +348,7 @@ let data = [
             {
                 name: "Content Updates, Backup, and Consultation",
                 para: "Assistance with content updates, regular website backups, and consultation for enhancements and trends are provided. This ensures that your website remains up to date, secure, and effective in meeting your business goals.",
-                para2: "By discussing and establishing clear expectations, service level agreements, and ongoing support terms, a strong partnership can be formed with the web design team for continued success and the smooth functioning of your website.",
+                para2: "",
                 icon: service9main4
             },
         ]
@@ -373,6 +382,9 @@ function WhatWeDoInner() {
                                 </div>
                                 <div className='heading'>
                                     <h2>{obj.name}</h2>
+                                </div>
+                                <div className='text-div'>
+                                    <p>{obj.para}</p>
                                 </div>
                             </Col>
                         </Row>

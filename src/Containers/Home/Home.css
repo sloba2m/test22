@@ -1,4 +1,4 @@
-a{
+a {
     text-decoration: none !important;
 }
 
@@ -42,8 +42,23 @@ a{
     padding: 37px 0;
 }
 
+.homepage .home-sec-1 .text-div{
+    margin-top: 24px;
+}
+
+.homepage .home-sec-1 .text-div p {
+    font-size: 20px;
+    font-family: Plus Jakarta Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    max-width: 1045px;
+    margin: auto;
+    text-align: center;
+}
+
 .homepage .home-sec-1 .service-main {
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 .homepage .home-sec-2 {
@@ -52,6 +67,7 @@ a{
 
 .homepage .home-sec-2 .text-div {
     margin-top: 16px;
+    max-width: 557px;
 }
 
 .homepage .home-sec-2 .text-div p {
@@ -306,9 +322,7 @@ a{
     }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 575px) {
-    
-}
+@media only screen and (max-width: 768px) and (min-width: 575px) {}
 
 @media only screen and (max-width: 768px) {
     .homepage .hero-home {
@@ -454,7 +468,7 @@ a{
 }
 
 @media only screen and (max-width: 375px) {
-    .homepage .hero-home .btn-div button{
+    .homepage .hero-home .btn-div button {
         width: auto;
         font-size: 16px;
     }

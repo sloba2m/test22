@@ -1,23 +1,50 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import section1Image from '../../assets/images/pastWorkInner/Laptop.svg'
-import section2Image from '../../assets/images/pastWorkInner/heyTutor.svg'
-import section3Image from '../../assets/images/pastWorkInner/clientsresults.svg'
-import section6Image from '../../assets/images/pastWorkInner/competitiveAnalysis.svg'
 
-import section7Image1 from '../../assets/images/pastWorkInner/Archetypical-personas-1.svg'
-import section7Image2 from '../../assets/images/pastWorkInner/Archetypical-personas-2.svg'
+import content1challenge1 from '../../assets/images/pastWorkInner/content1challenge1.svg'
+import content1challenge2 from '../../assets/images/pastWorkInner/content1challenge2.svg'
+import content2challenge1 from '../../assets/images/pastWorkInner/content2challenge1.svg'
+import content2challenge2 from '../../assets/images/pastWorkInner/content2challenge2.svg'
+import content3challenge1 from '../../assets/images/pastWorkInner/content3challenge1.svg'
+import content3challenge2 from '../../assets/images/pastWorkInner/content3challenge2.svg'
+import content4challenge1 from '../../assets/images/pastWorkInner/content4challenge1.svg'
+import content4challenge2 from '../../assets/images/pastWorkInner/content4challenge2.svg'
 
-import section8Image from '../../assets/images/pastWorkInner/leading-digital.svg'
+import content1approach from '../../assets/images/pastWorkInner/content1approach.svg'
+import content2approach from '../../assets/images/pastWorkInner/content2approach.svg'
+import content3approach from '../../assets/images/pastWorkInner/content3approach.svg'
+import content4approach from '../../assets/images/pastWorkInner/content4approach.svg'
 
-import section10Image1 from '../../assets/images/pastWorkInner/cap-concept-1.svg'
-import section10Image2 from '../../assets/images/pastWorkInner/cap-concept-2.svg'
+import content1solution from '../../assets/images/pastWorkInner/content1solution.svg'
+import content2solution from '../../assets/images/pastWorkInner/content2solution.svg'
+import content3solution from '../../assets/images/pastWorkInner/content3solution.svg'
+import content4solution from '../../assets/images/pastWorkInner/content4solution.svg'
 
-import section11Image from '../../assets/images/pastWorkInner/web-designing.svg'
 
+import techIcon1 from '../../assets/images/pastWorkInner/tech-icon1.svg'
+import techIcon2 from '../../assets/images/pastWorkInner/tech-icon2.svg'
+import techIcon3 from '../../assets/images/pastWorkInner/tech-icon3.svg'
+import techIcon4 from '../../assets/images/pastWorkInner/tech-icon4.svg'
+import techIcon5 from '../../assets/images/pastWorkInner/tech-icon5.svg'
+import techIcon6 from '../../assets/images/pastWorkInner/tech-icon6.svg'
+import techIcon7 from '../../assets/images/pastWorkInner/tech-icon7.svg'
+import techIcon8 from '../../assets/images/pastWorkInner/tech-icon8.svg'
+import techIcon9 from '../../assets/images/pastWorkInner/tech-icon9.svg'
+import techIcon10 from '../../assets/images/pastWorkInner/tech-icon10.svg'
 
-import PastWork3 from '../../assets/images/pastWork/past-work-3.png'
-import PastWork4 from '../../assets/images/pastWork/past-work-4.png'
+import content1Main from '../../assets/images/pastWorkInner/content1main.svg'
+import content2Main from '../../assets/images/pastWorkInner/content2main.svg'
+import content3Main from '../../assets/images/pastWorkInner/content3main.svg'
+import content4Main from '../../assets/images/pastWorkInner/content4main.svg'
+
+import ArrowRight from '../../assets/images/pastWorkInner/ArrowRight.svg'
+
+import qr from '../../assets/images/pastWorkInner/qr.svg'
+
+import PastWork1 from '../../assets/images/pastWork/past-work-1.svg'
+import PastWork2 from '../../assets/images/pastWork/past-work-2.svg'
+import PastWork3 from '../../assets/images/pastWork/past-work-3.svg'
+import PastWork4 from '../../assets/images/pastWork/past-work-4.svg'
 
 import './PastWorkInner.css'
 import { NavLink } from 'react-router-dom'
@@ -25,19 +52,165 @@ import FooterTop from '../../Components/FooterTop/FooterTop'
 
 function PastWorkInner() {
 
+    let [obj, setObj] = useState("")
+
+    let [data, setData] = useState([
+        {
+            heading: "Elysio Burgers",
+            para: "Increase customer reach and facilitate online ordering",
+            img: PastWork1,
+            route: "Elysio-Burgers"
+        },
+        {
+            heading: "Medical Symmetry",
+            para: "Boosted online presence by showcasing their range of services and integrating a user-friendly appointment booking system.",
+            img: PastWork2,
+            route: "Medical-Symmetry"
+        },
+        {
+            heading: "Fit and Delicious",
+            para: "Creating a visually appealing and easily updatable WordPress website",
+            img: PastWork3,
+            route: "Fit-and-Delicious"
+        },
+        {
+            heading: "Sphere",
+            para: "Developing a multi-chain launchpad for leading blockchains",
+            img: PastWork4,
+            route: "Sphere"
+        },
+    ])
+
+    let content = [
+        {
+            key: "Elysio-Burgers",
+            heroBg: "#4EBC52",
+            heroImg: content1Main,
+            qr: qr,
+            headMain: "Increase customer reach and facilitate online ordering",
+            tech: [techIcon1, techIcon2, techIcon3, techIcon4, techIcon5, techIcon6],
+            visitLink: "#",
+            paraChallenge: "Elysio Burgers needed to broaden their customer base and simplify the ordering process by creating an engaging and user-friendly website with an intuitive online ordering system, a visually appealing digital menu, and easy in-restaurant access to the menu via QR codes.",
+            challengeImg1: content1challenge1,
+            challengeImg2: content1challenge2,
+            paraApproach: "Our strategy focused on creating an engaging and user-friendly website for Elysio Burgers. This involved developing an intuitive online ordering system, creating a visually appealing digital menu, implementing in-restaurant QR codes for easy menu access, and incorporating customer testimonials to boost credibility.",
+            approachImg: content1approach,
+            paraSolution: "We created an engaging website for Elysio Burgers featuring enticing visuals, an easy-to-use online ordering system, and a digital menu with high-quality images. We also implemented in-restaurant QR codes for easy access to the menu and showcased customer testimonials for added credibility.",
+            solutionImg: content1solution,
+            recent: [
+                data[2],
+                data[1]
+            ]
+        },
+        {
+            key: "Medical-Symmetry",
+            heroBg: "#0CB8B6",
+            heroImg: content2Main,
+            qr: "",
+            headMain: "Showcase work and provide an easy-to-use appointment booking feature",
+            tech: [techIcon1, techIcon2, techIcon3, techIcon4, techIcon5, techIcon6],
+            visitLink: "#",
+            paraChallenge: "Improve Medical Symmetry's online presence by effectively presenting their range of services and incorporating an intuitive appointment booking system into their website.",
+            challengeImg1: content2challenge1,
+            challengeImg2: content2challenge2,
+            paraApproach: "Our strategy focused on creating an engaging and user-friendly website for Elysio Burgers. This involved developing an intuitive online ordering system, creating a visually appealing digital menu, implementing in-restaurant QR codes for easy menu access, and incorporating customer testimonials to boost credibility.",
+            approachImg: content2approach,
+            paraSolution: "We created an engaging website for Elysio Burgers featuring enticing visuals, an easy-to-use online ordering system, and a digital menu with high-quality images. We also implemented in-restaurant QR codes for easy access to the menu and showcased customer testimonials for added credibility.",
+            solutionImg: content2solution,
+            recent: [
+                data[0],
+                data[2],
+            ]
+        },
+        {
+            key: "Fit-and-Delicious",
+            heroBg: "#171717",
+            heroImg: content3Main,
+            qr: "",
+            headMain: "Showcase work and provide an easy-to-use appointment booking feature",
+            tech: [techIcon1, techIcon2, techIcon3, techIcon4, techIcon5, techIcon6],
+            visitLink: "#",
+            paraChallenge: "Brittney D., the food enthusiast behind Fit and Delicious, aimed to carve her niche in the digital space with a visually appealing website that she could update effortlessly with new recipes. The task at hand was to design an intuitive user interface that would be simple for Brittney to manage while providing a smooth browsing experience for her audience, thereby fostering engagement and repeat visits.",
+            challengeImg1: content3challenge1,
+            challengeImg2: content3challenge2,
+            paraApproach: "Given the requirements, our strategy was to leverage the capabilities of WordPress, a renowned content management system prized for its versatility and user-friendliness. Our design efforts centered around creating a visually attractive layout that highlighted Brittney's culinary masterpieces and facilitated the straightforward addition of new recipes.",
+            approachImg: content3approach,
+            paraSolution: "The result was a tastefully designed website that marries functionality with aesthetics. The platform not only presents Brittney's enticing recipes through high-quality images but also ensures smooth navigation for the visitors.",
+            paraSolution2: `Behind the scenes, we implemented an intuitive system that simplifies the process of adding new recipes for Brittney. A custom-made "add recipe" template further streamlines this process, enabling Brittney to invest more time in crafting delicious dishes rather than in website management.`,
+            solutionImg: content3solution,
+            recent: [
+                data[0],
+                data[1]
+            ]
+        },
+        {
+            key: "Sphere",
+            heroBg: "#1682BC",
+            heroImg: content4Main,
+            qr: "",
+            headMain: "Developing a multi-chain launchpad for leading blockchains",
+            tech: [techIcon7, techIcon8, techIcon9, techIcon10, techIcon3, techIcon4],
+            visitLink: "#",
+            paraChallenge: "Sphere, a pioneering blockchain company, aimed to take a leap forward in the industry by developing a multi-chain launchpad that could support several major blockchains. The principal challenge was crafting a technologically advanced yet user-centric interface, enabling users to access and interact with these blockchains in a seamless and intuitive manner.",
+            challengeImg1: content4challenge1,
+            challengeImg2: content4challenge2,
+            paraApproach: "With a focus on combining advanced technology with user-friendliness, our strategy hinged on utilizing React.js, renowned for its capability to create dynamic and responsive user interfaces, and web3, a technology instrumental in simplifying and securing blockchain interactions directly via the website.",
+            approachImg: content4approach,
+            paraSolution: "We delivered a robust, interactive website built using React.js, offering an engaging and smooth user experience. The interface, while aesthetically pleasing, excels in its efficiency, successfully accommodating both expert blockchain users and novices. The integration of web3 allowed users to interact securely with various supported blockchains directly on the website, taking usability and accessibility in the blockchain industry to new heights.",
+            solutionImg: content4solution,
+            recent: [
+                data[0],
+                data[1]
+            ]
+        },
+    ]
+
     useEffect(() => {
         window.scrollTo(0, 0)
+    }, [obj])
+
+    useEffect(() => {
+        let id = window.location.pathname.split("/")[window.location.pathname.split("/").length - 1]
+        let ob = content.find((a) => a.key === id)
+        setObj(ob)
     }, [])
 
     return (
+        obj &&
         <div className='pastWorkInner'>
-            <div className='hero hero-what-we-do' aria-label='Heytutor — Smart Design for online Tutoring Platform with $30M Revenue'>
-                <div className='overlay'></div>
+            <div style={{ background: `${obj.heroBg}` }} className='hero hero-what-we-do' aria-label='Heytutor — Smart Design for online Tutoring Platform with $30M Revenue'>
+                {/* <div className='overlay'></div> */}
                 <Container className='text-center'>
                     <Row>
                         <Col md={12}>
-                            <div className='heading'>
-                                <h1 className='h1-large-font'>Heytutor — Smart Design for online Tutoring Platform with $30M Revenue</h1>
+                            <div className='heading text-white'>
+                                <h3>{obj.key.split("-").join(" ")}</h3>
+                                <h1 className='h1-large-font'>{obj.headMain}</h1>
+                            </div>
+                        </Col>
+
+                        <Col md={12}>
+                            <div className='tech-used'>
+                                <div className='heading text-white'>
+                                    <h4>Technologies Used</h4>
+                                </div>
+                                <div className='tech-icons'>
+                                    {obj.tech.map((a, i) => (
+                                        <img key={`tech-${i}`} src={a} />
+                                    ))}
+                                </div>
+                            </div>
+                        </Col>
+
+                        <Col md={12}>
+                            <div className='img-div main-img'>
+                                <div className='qr-img'>
+                                    <img className='img' src={qr} />
+                                </div>
+                                <img className='img' src={obj.heroImg} />
+                                <div className='heading'>
+                                    <h3><a href='#'>Visit Elysio Burgers Website <img src={ArrowRight} /></a></h3>
+                                </div>
                             </div>
                         </Col>
                     </Row>
@@ -49,99 +222,20 @@ function PastWorkInner() {
                     <Row>
                         <Col md={12}>
                             <div className='heading'>
-                                <h3>About the project</h3>
+                                <h3>The Challenge</h3>
                             </div>
                             <div className='text-div'>
                                 <p>
-                                    HeyTutor is an online platform that establishes effective communication between tutors, students, and knowledge centers. Based on particular learning needs and preferences, tutees worldwide can find suitable educators to fill gaps in various niches. To get such a “smart match,” tutors can create custom profiles, set their own rates and policies, and browse for nearby jobs. After each session, educators are reviewed by HeyTutor, which enables the online platform to increase efficiency and drive even more positive results from the learning process.
+                                    {obj.paraChallenge}
                                 </p>
                             </div>
                             <div className='img-div'>
-                                <img src={section1Image} alt='About the project' />
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
-
-            <section className='section1'>
-                <Container>
-                    <Row>
-                        <Col md={12}>
-                            <div className='heading'>
-                                <h3>Online edtech industry</h3>
-                            </div>
-                            <div className='text-div'>
-                                <p>
-                                    According to <span>Straits Research</span>, the availability of free content has made online learning more accessible than ever before, creating a unique opportunity for edtech companies to capitalize on this trend. In 2021, the online education market reached a value of $30.6 billion and is projected to grow at a CAGR of 23.12% to reach $198.9 billion by 2030.
-                                </p>
-                            </div>
-                            <div className='img-div'>
-                                <img src={section2Image} alt='Online edtech industry' />
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
-
-            <section className='section1'>
-                <Container>
-                    <Row>
-                        <Col md={12}>
-                            <div className='heading'>
-                                <h3>Client’s results</h3>
-                            </div>
-                            <div className='text-div'>
-                                <p>
-                                    HeyTutor also actively participates in developing the educational edtech industry, popularizing fun, efficient, and stress-free study. As expected, many users adore the HeyTutor platform, which results in a constantly growing income and astonishing numbers of happy students and tutors across the globe.
-                                </p>
-                            </div>
-                            <div className='img-div'>
-                                <img src={section3Image} alt='Client’s results' />
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
-
-            <section className='section1'>
-                <Container>
-                    <Row>
-                        <Col md={12}>
-                            <div className='heading'>
-                                <h3>Client’s results</h3>
-                            </div>
-                            <div className='text-div'>
-                                <p>
-                                    In light of technological advancements and competitive market conditions, the client recognized the need to improve their business through contemporary design and brand solutions. In short, the platform’s goals can be described as follows:
-                                </p>
-                            </div>
-                            <div className='list-div'>
                                 <Row>
-                                    <Col lg={6} md={12}>
-                                        <div className='list'>
-                                            <div className='text-div'>
-                                                <p>
-                                                    Designing easy-to-navigate pages for tutors to conveniently register on the platform, manage profiles, and provide their study services smoothly and without difficulties.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div className='list'>
-                                            <div className='text-div'>
-                                                <p>
-                                                    Enhancing the brand’s overall image and perception by staying updated with the latest design trends and incorporating ideas of fun, fast, and efficient study.
-                                                </p>
-                                            </div>
-                                        </div>
+                                    <Col xs={6}>
+                                        <img src={obj.challengeImg1} alt='challenge' />
                                     </Col>
-                                    <Col lg={6} md={12}>
-                                        <div className='list list2'>
-                                            <div className='text-div'>
-                                                <p>
-                                                    Gaining a competitive edge and attracting new customers through efficient design techniques and modern brand identity.
-                                                </p>
-                                            </div>
-                                        </div>
+                                    <Col xs={6}>
+                                        <img className='topSpace' src={obj.challengeImg1} alt='challenge' />
                                     </Col>
                                 </Row>
                             </div>
@@ -155,71 +249,15 @@ function PastWorkInner() {
                     <Row>
                         <Col md={12}>
                             <div className='heading'>
-                                <h3>Project lineup</h3>
+                                <h3>The Approach</h3>
                             </div>
                             <div className='text-div'>
                                 <p>
-                                    To effectively manage resources, we identified the essential tasks that our team must prioritize. These are the sections we needed to design:
-                                </p>
-                            </div>
-                            <div className='list-div'>
-                                <Row>
-                                    <Col lg={6} md={12}>
-                                        <div className='list'>
-                                            <div className='text-div'>
-                                                <p>
-                                                    Tutor’s pages, such as “Tutoring Jobs Near Me” and “Tutor Sign Up Flow”, to assist with the management and organization of the studying process.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div className='list'>
-                                            <div className='text-div'>
-                                                <p>
-                                                    Convenient “Contact Us” form to help the client improve their customer service by gathering valuable data.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col lg={6} md={12}>
-                                        <div className='list'>
-                                            <div className='text-div'>
-                                                <p>
-                                                    “Landing Page Curriculum” and “Subject Landing Page” to let tutees plan their study time, making learning more productive and pleasant..
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div className='list'>
-                                            <div className='text-div'>
-                                                <p>
-                                                    Visually engaging animation for the main page that highlights the essential sections of the site.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                </Row>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
-
-            <section className='section1'>
-                <Container>
-                    <Row>
-                        <Col md={12}>
-                            <div className='heading'>
-                                <h3>Competitive analysis</h3>
-                            </div>
-                            <div className='text-div'>
-                                <p>
-                                    To identify the optimal practices in designing edtech websites, we deeply analyzed the strengths and weaknesses of HeyTutor’s main competitors. Our team implemented the best features of competitors’ sites, such as attractive photos, high-quality videos, and large typography, but upgraded everything with our own creative touch.
-                                    <br />
-                                    <br />
-                                    At the same time, we paid attention to the issues of similar tutoring platforms: insufficient indentation between blocks, monotonous graphic elements, low contrast, poorly used colors, and unclear hierarchy of accents. By acknowledging these flaws, our team drew a project plan and moved to the next step of our design journey — depicting HeyTutor’s archetypical users.
+                                    {obj.paraApproach}
                                 </p>
                             </div>
                             <div className='img-div'>
-                                <img src={section6Image} alt='Competitive analysis' />
+                                <img src={obj.approachImg} alt='Approach' />
                             </div>
                         </Col>
                     </Row>
@@ -231,115 +269,15 @@ function PastWorkInner() {
                     <Row>
                         <Col md={12}>
                             <div className='heading'>
-                                <h3>Archetypical personas</h3>
+                                <h3>The Solution</h3>
                             </div>
                             <div className='text-div'>
                                 <p>
-                                    Without a doubt, HeyTutor’s “typical” user is a young person studying or working in school, college, or university. They are passionate about the latest technologies and strive to improve skills and knowledge crucial to their occupation. Because of a busy schedule and active social life, these users need a flexible and convenient platform to study or work without wasting time and energy. Being aware of their worth, these personas prefer learning and teaching at their own pace, so an innovative edtech platform is precisely what the “classic” HeyTutor users need.
-                                    <br />
-                                    <br />
-                                    Having pointed out all highlighted details of the HeyTutor’s archetypical personas, our team built a user flow map tailored to their wishes and expectations. It helped us ensure that tutees and tutors could easily navigate through the site and achieve their goals while having a fun and productive study time.
+                                    {obj.paraSolution}
                                 </p>
                             </div>
-                            <div className='img-div'>
-                                <Row>
-                                    <Col xs={6}>
-                                        <img src={section7Image1} alt='Archetypical personas' />
-                                    </Col>
-                                    <Col xs={6}>
-                                        <img className='topSpace' src={section7Image2} alt='Archetypical personas' />
-                                    </Col>
-                                </Row>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
-
-            <section className='section1'>
-                <Container>
-                    <Row>
-                        <Col md={12}>
-                            <div className='heading'>
-                                <h3>Archetypical personas</h3>
-                            </div>
-                            <div className='text-div'>
-                                <p>
-                                    To guide the visual direction of the platform, our design team also created a mood board. Upon analysis, we found out that the mix of cold and warm colors, including blue, mint, and pink, is our best choice as it conveys the hospitality of HeyTutor’s teaching approach. Most of these colors are soft, striving to create a calm aesthetic, so our team added such a palette to the mood board, enhancing it with some extra details. Along with light colors, we chose graphic elements, contrasting gradients, and inserts that look like school supplies, reminding tutees and tutors that study should be interactive and engaging.
-                                </p>
-                            </div>
-                            <div className='img-div'>
-                                <img src={section8Image} alt='Archetypical personas' />
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
-
-            <section className='section1'>
-                <Container>
-                    <Row>
-                        <Col md={12}>
-                            <div className='heading'>
-                                <h3>Vibrant identity for a fun study</h3>
-                            </div>
-                            <div className='text-div'>
-                                <p>
-                                    To attract the target audience, we created a distinctive and memorable brand identity that would set HeyTutor apart from competitors. Our primary focus was revealing a core platform concept — joyful, fast, and smart studying. Our team wanted to create a visually appealing website, so we incorporated graphic elements such as hand-drawn lines, arrows, varied shapes, and minimalist icons. These details helped break up the monotony of the page, making it more attractive to users while emphasizing key content and information.
-                                    <br />
-                                    <br />
-                                    To avoid clutter and create an open and effortless design, our team decided to move on with color contrast, differentiating content blocks and emphasizing specific sections. In opposition to the light white & greyish background, we added pastel corn, lavender, mint, sky, and baby pink colors. Through the pleasant color dissimilarity between the “classic” backdrop and diverse playful tones, we brought a touch of vibrancy and life to the design.
-                                </p>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
-
-            <section className='section1'>
-                <Container>
-                    <Row>
-                        <Col md={12}>
-                            <div className='heading'>
-                                <h3>Academic cap concept</h3>
-                            </div>
-                            <div className='text-div'>
-                                <p>
-                                    At the heart of HeyTutor's mission is the goal of making learning accessible, intuitive, and enjoyable. To reflect this ethos, we presented HeyTutor's logo as an academic cap, which is commonly associated with education and learning. Its color scheme incorporates shades of light and dark purple, which stands for creativity, wisdom, and loyalty, aesthetically matching the logo’s classic book printing font.
-                                    <br />
-                                    <br />
-                                    The use of purple in the symbol is also consistent with the overall brand identity, which highlights a palette of warm, inviting colors that promote a fun and productive study environment. Overall, the design of the logo and pictorial mark effectively convey HeyTutor’s mission to provide a smart and intuitive online tutoring platform.
-                                </p>
-                            </div>
-                            <div className='img-div'>
-                                <Row>
-                                    <Col xs={6}>
-                                        <img className='topSpace' src={section10Image1} alt='Academic cap concept' />
-                                    </Col>
-                                    <Col xs={6}>
-                                        <img src={section10Image2} alt='Academic cap concept' />
-                                    </Col>
-                                </Row>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
-
-            <section className='section1'>
-                <Container>
-                    <Row>
-                        <Col md={12}>
-                            <div className='heading'>
-                                <h3>Academic cap concept</h3>
-                            </div>
-                            <div className='text-div'>
-                                <p>
-                                    This collaboration left us with a memorable experience and positive feelings only. Putting every effort into this project, our team conducted deep and comprehensive competitive research, designed an eye-catching and convenient website, created a unique contrasting color palette, restyled the logotype, and structured all essential content. Ultimately, our team helped HeyTutor to get a colorful brand identity, stand out from the competitors, and make even more tutees and tutors fall in love with this innovative edtech platform.
-                                </p>
-                            </div>
-                            <div className='img-div'>
-                                <img src={section11Image} alt='Academic cap concept' />
+                            <div className='img-div low-width'>
+                                <img src={obj.solutionImg} alt='solution' />
                             </div>
                         </Col>
                     </Row>
@@ -358,28 +296,30 @@ function PastWorkInner() {
                         <Col md={12}>
                             <div className='recent-work-boxes'>
                                 <Row>
-                                    <Col md={6}>
-                                        <NavLink to='/past-work/bling'>
-                                            <div className='past-work-box'>
-                                                <div className='img-div'>
-                                                    <img src={PastWork3} alt='BLING' />
-                                                </div>
-                                                <div className='text'>
-                                                    <div className='heading'>
-                                                        <article>
-                                                            <h4>BLING</h4>
-                                                        </article>
+                                    {obj.recent.map((a, i) => (
+                                        <Col key={i} md={6}>
+                                            <a href={`/past-work/${a.route}`}>
+                                                <div className='past-work-box'>
+                                                    <div className='img-div'>
+                                                        <img src={a.img} alt={a.heading} />
                                                     </div>
-                                                    <div className='text-div'>
-                                                        <p>
-                                                            Bling Jewelry Store — timeless beauty between vintage and novel
-                                                        </p>
+                                                    <div className='text'>
+                                                        <div className='heading'>
+                                                            <article>
+                                                                <h4>{a.heading}</h4>
+                                                            </article>
+                                                        </div>
+                                                        <div className='text-div'>
+                                                            <p>
+                                                                {a.para}
+                                                            </p>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </NavLink>
-                                    </Col>
-                                    <Col md={6}>
+                                            </a>
+                                        </Col>
+                                    ))}
+                                    {/* <Col md={6}>
                                         <NavLink to='/past-work/mixmo'>
                                             <div className='past-work-box'>
                                                 <div className='img-div'>
@@ -399,7 +339,7 @@ function PastWorkInner() {
                                                 </div>
                                             </div>
                                         </NavLink>
-                                    </Col>
+                                    </Col> */}
                                 </Row>
                             </div>
                         </Col>

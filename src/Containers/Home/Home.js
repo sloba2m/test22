@@ -47,29 +47,29 @@ function Home() {
     <div className='homepage'>
       <div className='hero hero-home text-center'>
         {/* <Slider pauseOnHover={false} autoplay={true} autoplaySpeed={3000} {...settings2}> */}
-          <Container className='text-center'>
-            <Row>
-              <Col md={12}>
-                <div className='heading'>
-                  <h1 className='before-after'><span>Pixel Infinity:</span> effective problem solvers; bringing real world value to your website</h1>
-                </div>
+        <Container className='text-center'>
+          <Row>
+            <Col md={12}>
+              <div className='heading'>
+                <h1 className='before-after'><span>Pixel Infinity:</span> effective problem solvers; bringing real world value to your website</h1>
+              </div>
 
-                <div className='btn-div'>
-                  <div className='btn-gradient-border'>
-                    <NavLink to="/contact">
-                      <button>LET’S TALK</button>
-                    </NavLink>
-                  </div>
-                  <div className='btn-gradient-border'>
-                    <NavLink to="/what-we-do">
-                      <button>ABOUT US</button>
-                    </NavLink>
-                  </div>
+              <div className='btn-div'>
+                <div className='btn-gradient-border'>
+                  <NavLink to="/contact">
+                    <button>LET’S TALK</button>
+                  </NavLink>
                 </div>
-              </Col>
-            </Row>
-          </Container>
-          {/* <Container className='text-center'>
+                <div className='btn-gradient-border'>
+                  <NavLink to="/what-we-do">
+                    <button>ABOUT US</button>
+                  </NavLink>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+        {/* <Container className='text-center'>
             <Row>
               <Col md={12}>
                 <div className='heading'>
@@ -100,6 +100,11 @@ function Home() {
             <Col md={12}>
               <div className='heading text-center'>
                 <h2>Our Process</h2>
+              </div>
+              <div className='text-div'>
+                <p>
+                  Our web design agency based in San Antonio empowers local businesses by crafting tailor-made, responsive websites that resonate with their audience. We offer a comprehensive package: from thoughtful consultation, custom design, and development to post-launch support. Our promise is a high-quality, SEO-optimized website that not only aligns with your brand but also enhances your online presence. With our commitment to customer collaboration and quality assurance, we turn your vision into a reality and establish a lasting partnership for continued success.
+                </p>
               </div>
             </Col>
             <Col md={12}>
@@ -379,7 +384,7 @@ function Home() {
               </div>
               <div className='text-div'>
                 <p>
-                  Pixel Infinity is a leading digital agency in San Antonio, empowering businesses with our digital expertise. Our dedicated team is fueled by a passion for excellence and a commitment to delivering results.
+                  Based in San Antonio, Pixel Infinity provides more than web design; we guide local businesses' digital transformations with unique, charm-infused solutions. Join us to amplify your online brand presence.
                 </p>
               </div>
               <div className='btn-div '>
@@ -415,8 +420,7 @@ function Home() {
                       <p>Founder of Fitandelicious.com</p>
                     </div>
                     <div className='text-div'>
-                      <p>Pixel Infinity is a leading digital agency in San Antonio, empowering businesses with our digital expertise. Our dedicated team is fueled by a passion for excellence and a commitment to delivering results. From website design and development to digital marketing strategies, we tailor our services to your unique needs, helping you succeed in the competitive digital landscape.</p>
-                    </div>
+                      <p>Working with Pixel Infinity was an absolute delight! They beautifully captured the essence of my food blog, Fit and Delicious, creating a captivating and user-friendly website. Their attention to detail, seamless integration of features, and reliable communication made the entire process a breeze. I highly recommend their services to anyone in need of an exceptional online presence. Thank you for bringing my vision to life!</p></div>
                   </div>
                 </div>
 

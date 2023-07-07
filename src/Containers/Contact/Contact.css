@@ -141,11 +141,37 @@
 }
 
 .contact .section2 {
+    margin-top: 160px;
+}
+
+.contact .section2 .text-div ul {
+    padding: 0;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .section2 .text-div ul li {
+    font-size: 24px;
+    font-family: Plus Jakarta Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    color: #262626;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.contact .section2 .text-div ul li a {
+    color: #262626;
+}
+
+.contact .section3 {
     padding: 160px 0;
     padding-bottom: 50px;
 }
 
-.contact .section2 .heading h2 {
+.contact .section3 .heading h2 {
     background: linear-gradient(270deg, #FB7EFF 0%, #1717FF 46.88%, #00E7FF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -153,22 +179,22 @@
     width: max-content;
 }
 
-.contact .section2 .accordion-button:not(.collapsed) {
+.contact .section3 .accordion-button:not(.collapsed) {
     border: none;
     box-shadow: none;
 }
 
-.contact .section2 .accord-main {
+.contact .section3 .accord-main {
     margin-top: 80px;
 }
 
-.contact .section2 .accordion-item {
+.contact .section3 .accordion-item {
     border: none;
     margin-bottom: 24px;
     border-radius: 4px;
 }
 
-.contact .section2 .accordion-button {
+.contact .section3 .accordion-button {
     min-height: 60px;
     background: #FAFAFA;
     border-radius: 4px;
@@ -183,7 +209,7 @@
     color: #000000;
 }
 
-.contact .section2 .accordion-body {
+.contact .section3 .accordion-body {
     background: #FAFAFA;
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
@@ -197,7 +223,7 @@
     padding-right: 30px;
 }
 
-.contact .section2 .accordion-button::after {
+.contact .section3 .accordion-button::after {
     transform: rotate(270deg);
 }
 
@@ -217,17 +243,26 @@
         padding-right: 60px;
     }
 
+    .contact .section2{
+        margin-top: 100px;
+    }
+
+    .contact .section2 .text-div ul li {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
     .contact .section1,
-    .contact .section2 {
+    .contact .section3 {
         padding-right: 10px;
         padding-left: 10px;
     }
 
-    .contact .section2 {
+    .contact .section3 {
         padding-top: 120px;
     }
 
-    .contact .section2 .accord-main {
+    .contact .section3 .accord-main {
         margin-top: 55px;
     }
 }
@@ -276,28 +311,44 @@
         line-height: 18px;
     }
 
-    .contact .section2 {
+    .contact .section2{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .contact .section2 .text-div ul{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .contact .section2 .text-div ul li {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    .contact .section3 {
         padding: 20px 0;
     }
 
-    .contact .section2 .heading h2 {
+    .contact .section3 .heading h2 {
         width: 90%;
         text-align: center;
         margin: auto;
     }
 
-    .contact .section2 .accord-main {
+    .contact .section3 .accord-main {
         margin-top: 40px;
     }
 
-    .contact .section2 .accordion-body {
+    .contact .section3 .accordion-body {
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
     }
 }
 
-.alertDiv{
+.alertDiv {
     width: 300px;
     position: fixed;
     top: 50px;

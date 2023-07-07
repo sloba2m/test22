@@ -1,17 +1,42 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import PastWork1 from '../../assets/images/pastWork/past-work-1.svg'
 import PastWork2 from '../../assets/images/pastWork/past-work-2.svg'
 import PastWork3 from '../../assets/images/pastWork/past-work-3.svg'
 import PastWork4 from '../../assets/images/pastWork/past-work-4.svg'
-import PastWork5 from '../../assets/images/pastWork/past-work-5.svg'
-import PastWork6 from '../../assets/images/pastWork/past-work-6.svg'
 import FooterTop from '../../Components/FooterTop/FooterTop'
 import { NavLink } from 'react-router-dom'
 
 import './PastWork.css'
 
 function PastWork() {
+
+  let [data, setData] = useState([
+    {
+      heading: "Elysio Burgers",
+      para: "Increase customer reach and facilitate online ordering",
+      img: PastWork1,
+      route: "Elysio-Burgers"
+    },
+    {
+      heading: "Medical Symmetry",
+      para: "Boosted online presence by showcasing their range of services and integrating a user-friendly appointment booking system.",
+      img: PastWork2,
+      route: "Medical-Symmetry"
+    },
+    {
+      heading: "Fit and Delicious",
+      para: "Creating a visually appealing and easily updatable WordPress website",
+      img: PastWork3,
+      route: "Fit-and-Delicious"
+    },
+    {
+      heading: "Sphere",
+      para: "Developing a multi-chain launchpad for leading blockchains",
+      img: PastWork4,
+      route: "Sphere"
+    },
+  ])
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -34,132 +59,29 @@ function PastWork() {
       <section className='section1'>
         <Container>
           <Row>
-            <Col sm={6}>
-              <NavLink to='/past-work/the-variable'>
-                <div className='past-work-box'>
-                  <div className='img-div'>
-                    <img src={PastWork1} alt='THE VARIABLE' />
-                  </div>
-                  <div className='text'>
-                    <div className='heading'>
-                      <article>
-                        <h4>THE VARIABLE</h4>
-                      </article>
+            {data.map((a, i) => (
+              <Col key={i} sm={6}>
+                <NavLink to={`/past-work/${a.route}`}>
+                  <div className='past-work-box'>
+                    <div className='img-div'>
+                      <img src={a.img} alt={a.heading} />
                     </div>
-                    <div className='text-div'>
-                      <p>
-                        The Variable — interactive design for those who fight indifference
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </NavLink>
-            </Col>
-            <Col sm={6}>
-              <NavLink to='/past-work/spaces'>
-                <div className='past-work-box'>
-                  <div className='img-div'>
-                    <img src={PastWork2} alt='SPACES' />
-                  </div>
-                  <div className='text'>
-                    <div className='heading'>
-                      <article>
-                        <h4>SPACES</h4>
-                      </article>
-                    </div>
-                    <div className='text-div'>
-                      <p>
-                        Embracing the future: modern design for Spaces Urbanistic Institute
-                      </p>
+                    <div className='text'>
+                      <div className='heading'>
+                        <article>
+                          <h4>{a.heading}</h4>
+                        </article>
+                      </div>
+                      <div className='text-div'>
+                        <p>
+                          {a.para}
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </NavLink>
-            </Col>
-            <Col sm={6}>
-              <NavLink to='/past-work/bling'>
-                <div className='past-work-box'>
-                  <div className='img-div'>
-                    <img src={PastWork3} alt='BLING' />
-                  </div>
-                  <div className='text'>
-                    <div className='heading'>
-                      <article>
-                        <h4>BLING</h4>
-                      </article>
-                    </div>
-                    <div className='text-div'>
-                      <p>
-                        Bling Jewelry Store — timeless beauty between vintage and novel
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </NavLink>
-            </Col>
-            <Col sm={6}>
-              <NavLink to='/past-work/mixmo'>
-                <div className='past-work-box'>
-                  <div className='img-div'>
-                    <img src={PastWork4} alt='MIXMO' />
-                  </div>
-                  <div className='text'>
-                    <div className='heading'>
-                      <article>
-                        <h4>MIXMO</h4>
-                      </article>
-                    </div>
-                    <div className='text-div'>
-                      <p>
-                        Mixmo: shaking up the music scene with a bold and colorful image
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </NavLink>
-            </Col>
-            <Col sm={6}>
-              <NavLink to='/past-work/go-trade'>
-                <div className='past-work-box'>
-                  <div className='img-div'>
-                    <img src={PastWork5} alt='GO TRADE' />
-                  </div>
-                  <div className='text'>
-                    <div className='heading'>
-                      <article>
-                        <h4>GO TRADE</h4>
-                      </article>
-                    </div>
-                    <div className='text-div'>
-                      <p>
-                        Futuristic and sleek design for the universal investment platform
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </NavLink>
-            </Col>
-            <Col sm={6}>
-              <NavLink to='/past-work/heytutor'>
-                <div className='past-work-box'>
-                  <div className='img-div'>
-                    <img src={PastWork6} alt='HEYTUTOR' />
-                  </div>
-                  <div className='text'>
-                    <div className='heading'>
-                      <article>
-                        <h4>HEYTUTOR</h4>
-                      </article>
-                    </div>
-                    <div className='text-div'>
-                      <p>
-                        Heytutor — smart design for online tutoring platform with $30M revenue
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </NavLink>
-            </Col>
+                </NavLink>
+              </Col>
+            ))}
           </Row>
         </Container>
       </section>
