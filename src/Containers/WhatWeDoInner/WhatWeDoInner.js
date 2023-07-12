@@ -116,16 +116,17 @@ let data = [
                 icon: service2main2
             },
             {
-                name: "Wireframes or Sketches",
-                para: "Wireframes or sketches outline the website's layout and structure, focusing on hierarchy rather than visual design.",
-                para2: "",
-                icon: service2main3
-            },
-            {
                 name: "Design Concepts",
                 para: "Wireframes or prototypes may be created to visualize the website's structure, and branding assets like logos and color palettes are gathered. These steps help align the design with your brand identity and facilitate feedback for revisions.",
                 para2: "",
                 icon: service2main4
+            },
+            {
+                name: "Iterative Feedback and Revisions",
+                para: "This step emphasizes our collaborative approach and commitment to client satisfaction. It shows that we value our clients' input and are willing to make revisions until the design meets their expectations.",
+                para2: "",
+                icon: service2main3
+
             },
         ]
     },

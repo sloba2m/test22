@@ -58,7 +58,7 @@ function Contact() {
             <div className='hero-home'>
                 <Container className='text-center'>
                     <div class="alert alert-success alertDiv" id="alertDiv" role="alert">
-                        The mail has been sent
+                        Your email has been sent
                     </div>
                     <Row>
                         <Col md={8}>
@@ -108,7 +108,7 @@ function Contact() {
                             <Col md={6}>
                                 <div className='input-div'>
                                     <label>Project budget</label>
-                                    <input onChange={(e) => setBudget(e.target.value)} value={budget} type='text' placeholder='Select your budget' name='budget' />
+                                    <input onChange={(e) => setBudget(e.target.value)} value={budget} type='text' placeholder='Budget range' name='budget' />
                                 </div>
                             </Col>
                             <Col md={12}>
@@ -138,7 +138,7 @@ function Contact() {
                             <div className='text-div'>
                                 <ul>
                                     <li><a href='mailto:hi@pixelinfinity.io'>hi@pixelinfinity.io</a></li>
-                                    <li>Call coming soon</li>
+                                    <li>Call (210) 405-5557</li>
                                 </ul>
                             </div>
                         </Col>

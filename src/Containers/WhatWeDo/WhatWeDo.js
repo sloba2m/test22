@@ -109,10 +109,10 @@ function WhatWeDo() {
                                                     </div>
                                                     <div className='text-div'>
                                                         <ul>
-                                                            <li>Visualizing Your Vision</li>
-                                                            <li>Inspiring Visual Language</li>
-                                                            <li>Structuring the Blueprint</li>
-                                                            <li>Bringing Design to Life</li>
+                                                          <li>Design Brief and Research</li>
+                                                          <li>Moodboards and Visual Inspiration</li>
+                                                          <li>Design Concepts</li>
+                                                          <li>Iterative Feedback and Revisions</li>
                                                         </ul>
                                                         <span>
                                                             LEARN MORE

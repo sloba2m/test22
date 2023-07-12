@@ -51,7 +51,7 @@ function Home() {
           <Row>
             <Col md={12}>
               <div className='heading'>
-                <h1 className='before-after'><span>Pixel Infinity:</span> effective problem solvers; bringing real world value to your website</h1>
+                <h1 className='before-after'><span>Pixel Infinity:</span> effective problem solvers, bringing real world value to your website</h1>
               </div>
 
               <div className='btn-div'>
@@ -60,11 +60,11 @@ function Home() {
                     <button>LET’S TALK</button>
                   </NavLink>
                 </div>
-                <div className='btn-gradient-border'>
+                {/* <div className='btn-gradient-border'>
                   <NavLink to="/what-we-do">
                     <button>ABOUT US</button>
                   </NavLink>
-                </div>
+                </div> */}
               </div>
             </Col>
           </Row>

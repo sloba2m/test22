@@ -30,10 +30,10 @@ function Footer() {
                             </div>
                             <div className='social-icons'>
                                 <ul>
-                                    <li><NavLink to="https://www.facebook.com/" target='_blank'><img src={FacebookIcon} alt='facebook' /></NavLink></li>
-                                    <li><NavLink to="https://www.instagram.com/" target='_blank'><img src={InstagramIcon} alt='instgram' /></NavLink></li>
-                                    <li><NavLink to="https://www.linkedin.com/" target='_blank'><img src={LinkedinIcon} alt='linkedin' /></NavLink></li>
-                                    <li><NavLink to="https://twitter.com/" target='_blank'><img src={TwitterIcon} alt='twitter' /></NavLink></li>
+                                    <li><NavLink to="https://www.facebook.com/pixelinfinity.io/" target='_blank'><img src={FacebookIcon} alt='facebook' /></NavLink></li>
+                                    <li><NavLink to="https://www.instagram.com/pixelinfinity.io/" target='_blank'><img src={InstagramIcon} alt='instgram' /></NavLink></li>
+                                    <li><NavLink to="https://www.linkedin.com/in/pixelinfinityio/" target='_blank'><img src={LinkedinIcon} alt='linkedin' /></NavLink></li>
+                                    <li><NavLink to="https://twitter.com/pixelinfinityio" target='_blank'><img src={TwitterIcon} alt='twitter' /></NavLink></li>
                                 </ul>
                             </div>
                         </div>
